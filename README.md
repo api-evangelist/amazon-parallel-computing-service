@@ -3,28 +3,21 @@ AWS Parallel Computing Service (PCS) is a managed service that makes it easy to 
 
 **URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/amazon-parallel-computing-service/refs/heads/main/apis.yml)
 
-## Scope
-
-- **Type:** Index 
-- **Position:** Consuming 
-- **Access:** 3rd-Party 
+**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
 
 ## Tags:
 
- - High Performance Computing, HPC, Parallel Computing, Scientific Computing, AWS
+ - AWS, High Performance Computing, HPC, Parallel Computing, Scientific Computing
 
 ## Timestamps
 
-- **Created:** 2026-03-16 
-- **Modified:** 2026-03-16 
+- **Created:** 2026-03-16
+- **Modified:** 2026-04-19
 
 ## APIs
 
 ### AWS Parallel Computing Service API
 The AWS Parallel Computing Service API provides programmatic access to create and manage HPC clusters, compute node groups, queues, and job scheduling for high performance computing workloads.
-
-**Human URL:** [https://aws.amazon.com/pcs/](https://aws.amazon.com/pcs/)
-
 
 #### Tags:
 
@@ -33,7 +26,7 @@ The AWS Parallel Computing Service API provides programmatic access to create an
 #### Properties
 
 - [Documentation](https://docs.aws.amazon.com/pcs/latest/APIReference/Welcome.html)
-- [OpenAPI](https://api.apis.guru/v2/specs/amazonaws.com/pcs/2023-02-10/openapi.yaml)
+- [APIReference](https://docs.aws.amazon.com/pcs/latest/APIReference/Welcome.html)
 - [Getting Started](https://aws.amazon.com/pcs/getting-started/)
 - [Pricing](https://aws.amazon.com/pcs/pricing/)
 - [FAQ](https://aws.amazon.com/pcs/faqs/)
@@ -53,6 +46,27 @@ The AWS Parallel Computing Service API provides programmatic access to create an
 - [Login](https://signin.aws.amazon.com/)
 - [Status](https://health.aws.amazon.com/health/status)
 - [Contact](https://aws.amazon.com/contact-us/)
+- [SpectralRules](rules/amazon-parallel-computing-service-spectral-rules.yml)
+- [Vocabulary](vocabulary/amazon-parallel-computing-service-vocabulary.yaml)
+- [NaftikoCapability](capabilities/amazon-parallel-computing-service-workflow.yaml)
+
+## Capabilities
+
+Naftiko capabilities organized as shared per-API definitions composed into customer-facing workflows.
+
+### Workflow Capabilities
+
+| Workflow | APIs Combined | Tools | Persona |
+|----------|--------------|-------|---------|
+| [Amazon Parallel Computing Service API Workflow](capabilities/amazon-parallel-computing-service-workflow.yaml) | pcs | 1 | Developer |
+
+## Vocabulary
+
+- [Vocabulary](vocabulary/amazon-parallel-computing-service-vocabulary.yaml)
+
+## Rules
+
+- [Spectral Rules](rules/amazon-parallel-computing-service-spectral-rules.yml) — 21 rules enforcing Amazon Parallel Computing Service API conventions
 
 ## Maintainers
 

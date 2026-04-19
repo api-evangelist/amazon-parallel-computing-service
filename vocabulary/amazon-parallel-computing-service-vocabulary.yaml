@@ -1,0 +1,38 @@
+vocabulary: 1.0.0
+info:
+  provider: Amazon Parallel Computing Service
+  description: Unified vocabulary for Amazon Parallel Computing Service APIs.
+  created: '2026-04-19'
+  modified: '2026-04-19'
+operational:
+  apis:
+  - name: openapi.yml
+    namespace: openapi.yml
+    version: ''
+    baseUrl: ''
+    status: active
+  actions: []
+capability:
+  workflows:
+  - name: Amazon Parallel Computing Service API Workflow
+    file: capabilities/amazon-parallel-computing-service-workflow.yaml
+    description: Core API workflow
+    apis:
+    - openapi.yml
+    personas:
+    - Developer
+  personas:
+  - id: developer
+    name: Developer
+    description: Developer using Amazon Parallel Computing Service APIs
+  domains:
+  - Amazon Parallel Computing Service
+  - AWS
+crossReference:
+- resource: openapi.yml
+  apis:
+  - openapi.yml
+  workflows:
+  - Amazon Parallel Computing Service API Workflow
+  personas:
+  - Developer
