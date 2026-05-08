@@ -32,6 +32,8 @@ apis:
   - HPC
   - Parallel Computing
   properties:
+  - url: openapi/amazon-parallel-computing-service-openapi.yml
+    type: OpenAPI
   - type: Documentation
     url: https://docs.aws.amazon.com/pcs/latest/APIReference/Welcome.html
   - type: APIReference

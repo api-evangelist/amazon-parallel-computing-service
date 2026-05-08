@@ -1,0 +1,200 @@
+openapi: 3.1.0
+info:
+  title: Amazon Parallel Computing Service
+  version: '1.0.0'
+  description: Minimal OpenAPI representation of the AWS Parallel Computing Service (PCS) management API. Operations follow the AWS RPC-over-HTTP convention.
+servers:
+  - url: https://pcs.amazonaws.com
+x-generated-from: https://docs.aws.amazon.com/pcs/latest/APIReference/Welcome.html
+x-generated-by: claude-crawl-2026-05-08
+paths:
+  /CreateCluster:
+    post:
+      summary: CreateCluster
+      operationId: CreateCluster
+      requestBody:
+        content:
+          application/json:
+            schema: {type: object}
+      responses:
+        '200': {description: OK, content: {application/json: {schema: {type: object}}}}
+  /CreateComputeNodeGroup:
+    post:
+      summary: CreateComputeNodeGroup
+      operationId: CreateComputeNodeGroup
+      requestBody:
+        content:
+          application/json:
+            schema: {type: object}
+      responses:
+        '200': {description: OK, content: {application/json: {schema: {type: object}}}}
+  /CreateQueue:
+    post:
+      summary: CreateQueue
+      operationId: CreateQueue
+      requestBody:
+        content:
+          application/json:
+            schema: {type: object}
+      responses:
+        '200': {description: OK, content: {application/json: {schema: {type: object}}}}
+  /DeleteCluster:
+    post:
+      summary: DeleteCluster
+      operationId: DeleteCluster
+      requestBody:
+        content:
+          application/json:
+            schema: {type: object}
+      responses:
+        '200': {description: OK, content: {application/json: {schema: {type: object}}}}
+  /DeleteComputeNodeGroup:
+    post:
+      summary: DeleteComputeNodeGroup
+      operationId: DeleteComputeNodeGroup
+      requestBody:
+        content:
+          application/json:
+            schema: {type: object}
+      responses:
+        '200': {description: OK, content: {application/json: {schema: {type: object}}}}
+  /DeleteQueue:
+    post:
+      summary: DeleteQueue
+      operationId: DeleteQueue
+      requestBody:
+        content:
+          application/json:
+            schema: {type: object}
+      responses:
+        '200': {description: OK, content: {application/json: {schema: {type: object}}}}
+  /GetCluster:
+    post:
+      summary: GetCluster
+      operationId: GetCluster
+      requestBody:
+        content:
+          application/json:
+            schema: {type: object}
+      responses:
+        '200': {description: OK, content: {application/json: {schema: {type: object}}}}
+  /GetComputeNodeGroup:
+    post:
+      summary: GetComputeNodeGroup
+      operationId: GetComputeNodeGroup
+      requestBody:
+        content:
+          application/json:
+            schema: {type: object}
+      responses:
+        '200': {description: OK, content: {application/json: {schema: {type: object}}}}
+  /GetQueue:
+    post:
+      summary: GetQueue
+      operationId: GetQueue
+      requestBody:
+        content:
+          application/json:
+            schema: {type: object}
+      responses:
+        '200': {description: OK, content: {application/json: {schema: {type: object}}}}
+  /ListClusters:
+    post:
+      summary: ListClusters
+      operationId: ListClusters
+      requestBody:
+        content:
+          application/json:
+            schema: {type: object}
+      responses:
+        '200': {description: OK, content: {application/json: {schema: {type: object}}}}
+  /ListComputeNodeGroups:
+    post:
+      summary: ListComputeNodeGroups
+      operationId: ListComputeNodeGroups
+      requestBody:
+        content:
+          application/json:
+            schema: {type: object}
+      responses:
+        '200': {description: OK, content: {application/json: {schema: {type: object}}}}
+  /ListQueues:
+    post:
+      summary: ListQueues
+      operationId: ListQueues
+      requestBody:
+        content:
+          application/json:
+            schema: {type: object}
+      responses:
+        '200': {description: OK, content: {application/json: {schema: {type: object}}}}
+  /ListTagsForResource:
+    post:
+      summary: ListTagsForResource
+      operationId: ListTagsForResource
+      requestBody:
+        content:
+          application/json:
+            schema: {type: object}
+      responses:
+        '200': {description: OK, content: {application/json: {schema: {type: object}}}}
+  /RegisterComputeNodeGroupInstance:
+    post:
+      summary: RegisterComputeNodeGroupInstance
+      operationId: RegisterComputeNodeGroupInstance
+      requestBody:
+        content:
+          application/json:
+            schema: {type: object}
+      responses:
+        '200': {description: OK, content: {application/json: {schema: {type: object}}}}
+  /TagResource:
+    post:
+      summary: TagResource
+      operationId: TagResource
+      requestBody:
+        content:
+          application/json:
+            schema: {type: object}
+      responses:
+        '200': {description: OK, content: {application/json: {schema: {type: object}}}}
+  /UntagResource:
+    post:
+      summary: UntagResource
+      operationId: UntagResource
+      requestBody:
+        content:
+          application/json:
+            schema: {type: object}
+      responses:
+        '200': {description: OK, content: {application/json: {schema: {type: object}}}}
+  /UpdateCluster:
+    post:
+      summary: UpdateCluster
+      operationId: UpdateCluster
+      requestBody:
+        content:
+          application/json:
+            schema: {type: object}
+      responses:
+        '200': {description: OK, content: {application/json: {schema: {type: object}}}}
+  /UpdateComputeNodeGroup:
+    post:
+      summary: UpdateComputeNodeGroup
+      operationId: UpdateComputeNodeGroup
+      requestBody:
+        content:
+          application/json:
+            schema: {type: object}
+      responses:
+        '200': {description: OK, content: {application/json: {schema: {type: object}}}}
+  /UpdateQueue:
+    post:
+      summary: UpdateQueue
+      operationId: UpdateQueue
+      requestBody:
+        content:
+          application/json:
+            schema: {type: object}
+      responses:
+        '200': {description: OK, content: {application/json: {schema: {type: object}}}}
