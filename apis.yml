@@ -38,7 +38,7 @@ apis:
     url: https://docs.aws.amazon.com/pcs/latest/APIReference/Welcome.html
   - type: APIReference
     url: https://docs.aws.amazon.com/pcs/latest/APIReference/Welcome.html
-  - type: Getting Started
+  - type: GettingStarted
     url: https://aws.amazon.com/pcs/getting-started/
   - type: Pricing
     url: https://aws.amazon.com/pcs/pricing/
@@ -51,23 +51,23 @@ common:
   url: https://aws.amazon.com/pcs/
 - type: Documentation
   url: https://docs.aws.amazon.com/pcs/
-- type: Terms of Service
+- type: TermsOfService
   url: https://aws.amazon.com/service-terms/
-- type: Privacy Policy
+- type: PrivacyPolicy
   url: https://aws.amazon.com/privacy/
 - type: Support
   url: https://aws.amazon.com/premiumsupport/
 - type: Blog
   url: https://aws.amazon.com/blogs/hpc/
-- type: GitHub Organization
+- type: GitHubOrganization
   url: https://github.com/aws
 - type: Console
   url: https://console.aws.amazon.com/pcs/
-- type: Sign Up
+- type: SignUp
   url: https://portal.aws.amazon.com/billing/signup
 - type: Login
   url: https://signin.aws.amazon.com/
-- type: Status
+- type: StatusPage
   url: https://health.aws.amazon.com/health/status
 - type: Contact
   url: https://aws.amazon.com/contact-us/
