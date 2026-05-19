@@ -1,10 +1,8 @@
 aid: amazon-parallel-computing-service
 name: Amazon Parallel Computing Service
-description: >-
-  AWS Parallel Computing Service (PCS) is a managed service that makes it
-  easy to create and manage high performance computing (HPC) clusters on AWS.
-  It provides familiar scheduler interfaces, integrates with existing HPC
-  tools, and scales automatically to handle demanding workloads.
+description: AWS Parallel Computing Service (PCS) is a managed service that makes it easy to create and manage high performance
+  computing (HPC) clusters on AWS. It provides familiar scheduler interfaces, integrates with existing HPC tools, and scales
+  automatically to handle demanding workloads.
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
@@ -13,18 +11,15 @@ tags:
 - HPC
 - Parallel Computing
 - Scientific Computing
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/amazon-parallel-computing-service/refs/heads/main/apis.yml
+url: https://raw.githubusercontent.com/api-evangelist/amazon-parallel-computing-service/refs/heads/main/apis.yml
 created: '2026-03-16'
-modified: '2026-04-19'
+modified: '2026-05-19'
 specificationVersion: '0.19'
 apis:
 - aid: amazon-parallel-computing-service:aws-pcs-api
   name: AWS Parallel Computing Service API
-  description: >-
-    The AWS Parallel Computing Service API provides programmatic access to
-    create and manage HPC clusters, compute node groups, queues, and job
-    scheduling for high performance computing workloads.
+  description: The AWS Parallel Computing Service API provides programmatic access to create and manage HPC clusters, compute
+    node groups, queues, and job scheduling for high performance computing workloads.
   humanURL: https://aws.amazon.com/pcs/
   baseURL: https://pcs.amazonaws.com
   tags:
@@ -44,6 +39,8 @@ apis:
     url: https://aws.amazon.com/pcs/pricing/
   - type: FAQ
     url: https://aws.amazon.com/pcs/faqs/
+  - type: NaftikoCapability
+    url: capabilities/amazon-parallel-computing-service.yaml
 common:
 - type: Portal
   url: https://aws.amazon.com/pcs/
@@ -75,8 +72,6 @@ common:
   url: rules/amazon-parallel-computing-service-spectral-rules.yml
 - type: Vocabulary
   url: vocabulary/amazon-parallel-computing-service-vocabulary.yaml
-- type: NaftikoCapability
-  url: capabilities/amazon-parallel-computing-service-workflow.yaml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com

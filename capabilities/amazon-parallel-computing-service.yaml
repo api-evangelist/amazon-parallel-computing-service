@@ -1,0 +1,832 @@
+naftiko: 1.0.0-alpha2
+info:
+  label: Amazon Parallel Computing Service
+  description: 'Amazon Parallel Computing Service. 19 operations. Lead operation: CreateCluster. Self-contained Naftiko capability
+    covering one Amazon Parallel Computing Service business surface.'
+  tags:
+  - Amazon Parallel Computing Service
+  created: '2026-05-19'
+  modified: '2026-05-19'
+binds:
+- namespace: env
+  keys:
+    AMAZON_PARALLEL_COMPUTING_SERVICE_API_KEY: AMAZON_PARALLEL_COMPUTING_SERVICE_API_KEY
+capability:
+  consumes:
+  - type: http
+    namespace: amazon-parallel-computing-service
+    baseUri: https://pcs.amazonaws.com
+    description: Amazon Parallel Computing Service business capability. Self-contained, no shared references.
+    resources:
+    - name: CreateCluster
+      path: /CreateCluster
+      operations:
+      - name: createcluster
+        method: POST
+        description: CreateCluster
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: CreateComputeNodeGroup
+      path: /CreateComputeNodeGroup
+      operations:
+      - name: createcomputenodegroup
+        method: POST
+        description: CreateComputeNodeGroup
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: CreateQueue
+      path: /CreateQueue
+      operations:
+      - name: createqueue
+        method: POST
+        description: CreateQueue
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: DeleteCluster
+      path: /DeleteCluster
+      operations:
+      - name: deletecluster
+        method: POST
+        description: DeleteCluster
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: DeleteComputeNodeGroup
+      path: /DeleteComputeNodeGroup
+      operations:
+      - name: deletecomputenodegroup
+        method: POST
+        description: DeleteComputeNodeGroup
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: DeleteQueue
+      path: /DeleteQueue
+      operations:
+      - name: deletequeue
+        method: POST
+        description: DeleteQueue
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: GetCluster
+      path: /GetCluster
+      operations:
+      - name: getcluster
+        method: POST
+        description: GetCluster
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: GetComputeNodeGroup
+      path: /GetComputeNodeGroup
+      operations:
+      - name: getcomputenodegroup
+        method: POST
+        description: GetComputeNodeGroup
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: GetQueue
+      path: /GetQueue
+      operations:
+      - name: getqueue
+        method: POST
+        description: GetQueue
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: ListClusters
+      path: /ListClusters
+      operations:
+      - name: listclusters
+        method: POST
+        description: ListClusters
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: ListComputeNodeGroups
+      path: /ListComputeNodeGroups
+      operations:
+      - name: listcomputenodegroups
+        method: POST
+        description: ListComputeNodeGroups
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: ListQueues
+      path: /ListQueues
+      operations:
+      - name: listqueues
+        method: POST
+        description: ListQueues
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: ListTagsForResource
+      path: /ListTagsForResource
+      operations:
+      - name: listtagsforresource
+        method: POST
+        description: ListTagsForResource
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: RegisterComputeNodeGroupInstance
+      path: /RegisterComputeNodeGroupInstance
+      operations:
+      - name: registercomputenodegroupinstance
+        method: POST
+        description: RegisterComputeNodeGroupInstance
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: TagResource
+      path: /TagResource
+      operations:
+      - name: tagresource
+        method: POST
+        description: TagResource
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: UntagResource
+      path: /UntagResource
+      operations:
+      - name: untagresource
+        method: POST
+        description: UntagResource
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: UpdateCluster
+      path: /UpdateCluster
+      operations:
+      - name: updatecluster
+        method: POST
+        description: UpdateCluster
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: UpdateComputeNodeGroup
+      path: /UpdateComputeNodeGroup
+      operations:
+      - name: updatecomputenodegroup
+        method: POST
+        description: UpdateComputeNodeGroup
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: UpdateQueue
+      path: /UpdateQueue
+      operations:
+      - name: updatequeue
+        method: POST
+        description: UpdateQueue
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+  exposes:
+  - type: rest
+    namespace: amazon-parallel-computing-service-rest
+    port: 8080
+    description: REST adapter for Amazon Parallel Computing Service. One Spectral-compliant resource per consumed operation,
+      prefixed with /v1.
+    resources:
+    - path: /v1/createcluster
+      name: createcluster
+      description: REST surface for CreateCluster.
+      operations:
+      - method: POST
+        name: createcluster
+        description: CreateCluster
+        call: amazon-parallel-computing-service.createcluster
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/createcomputenodegroup
+      name: createcomputenodegroup
+      description: REST surface for CreateComputeNodeGroup.
+      operations:
+      - method: POST
+        name: createcomputenodegroup
+        description: CreateComputeNodeGroup
+        call: amazon-parallel-computing-service.createcomputenodegroup
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/createqueue
+      name: createqueue
+      description: REST surface for CreateQueue.
+      operations:
+      - method: POST
+        name: createqueue
+        description: CreateQueue
+        call: amazon-parallel-computing-service.createqueue
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/deletecluster
+      name: deletecluster
+      description: REST surface for DeleteCluster.
+      operations:
+      - method: POST
+        name: deletecluster
+        description: DeleteCluster
+        call: amazon-parallel-computing-service.deletecluster
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/deletecomputenodegroup
+      name: deletecomputenodegroup
+      description: REST surface for DeleteComputeNodeGroup.
+      operations:
+      - method: POST
+        name: deletecomputenodegroup
+        description: DeleteComputeNodeGroup
+        call: amazon-parallel-computing-service.deletecomputenodegroup
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/deletequeue
+      name: deletequeue
+      description: REST surface for DeleteQueue.
+      operations:
+      - method: POST
+        name: deletequeue
+        description: DeleteQueue
+        call: amazon-parallel-computing-service.deletequeue
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/getcluster
+      name: getcluster
+      description: REST surface for GetCluster.
+      operations:
+      - method: POST
+        name: getcluster
+        description: GetCluster
+        call: amazon-parallel-computing-service.getcluster
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/getcomputenodegroup
+      name: getcomputenodegroup
+      description: REST surface for GetComputeNodeGroup.
+      operations:
+      - method: POST
+        name: getcomputenodegroup
+        description: GetComputeNodeGroup
+        call: amazon-parallel-computing-service.getcomputenodegroup
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/getqueue
+      name: getqueue
+      description: REST surface for GetQueue.
+      operations:
+      - method: POST
+        name: getqueue
+        description: GetQueue
+        call: amazon-parallel-computing-service.getqueue
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/listclusters
+      name: listclusters
+      description: REST surface for ListClusters.
+      operations:
+      - method: POST
+        name: listclusters
+        description: ListClusters
+        call: amazon-parallel-computing-service.listclusters
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/listcomputenodegroups
+      name: listcomputenodegroups
+      description: REST surface for ListComputeNodeGroups.
+      operations:
+      - method: POST
+        name: listcomputenodegroups
+        description: ListComputeNodeGroups
+        call: amazon-parallel-computing-service.listcomputenodegroups
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/listqueues
+      name: listqueues
+      description: REST surface for ListQueues.
+      operations:
+      - method: POST
+        name: listqueues
+        description: ListQueues
+        call: amazon-parallel-computing-service.listqueues
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/listtagsforresource
+      name: listtagsforresource
+      description: REST surface for ListTagsForResource.
+      operations:
+      - method: POST
+        name: listtagsforresource
+        description: ListTagsForResource
+        call: amazon-parallel-computing-service.listtagsforresource
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/registercomputenodegroupinstance
+      name: registercomputenodegroupinstance
+      description: REST surface for RegisterComputeNodeGroupInstance.
+      operations:
+      - method: POST
+        name: registercomputenodegroupinstance
+        description: RegisterComputeNodeGroupInstance
+        call: amazon-parallel-computing-service.registercomputenodegroupinstance
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/tagresource
+      name: tagresource
+      description: REST surface for TagResource.
+      operations:
+      - method: POST
+        name: tagresource
+        description: TagResource
+        call: amazon-parallel-computing-service.tagresource
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/untagresource
+      name: untagresource
+      description: REST surface for UntagResource.
+      operations:
+      - method: POST
+        name: untagresource
+        description: UntagResource
+        call: amazon-parallel-computing-service.untagresource
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/updatecluster
+      name: updatecluster
+      description: REST surface for UpdateCluster.
+      operations:
+      - method: POST
+        name: updatecluster
+        description: UpdateCluster
+        call: amazon-parallel-computing-service.updatecluster
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/updatecomputenodegroup
+      name: updatecomputenodegroup
+      description: REST surface for UpdateComputeNodeGroup.
+      operations:
+      - method: POST
+        name: updatecomputenodegroup
+        description: UpdateComputeNodeGroup
+        call: amazon-parallel-computing-service.updatecomputenodegroup
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/updatequeue
+      name: updatequeue
+      description: REST surface for UpdateQueue.
+      operations:
+      - method: POST
+        name: updatequeue
+        description: UpdateQueue
+        call: amazon-parallel-computing-service.updatequeue
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+  - type: mcp
+    namespace: amazon-parallel-computing-service-mcp
+    port: 9090
+    transport: http
+    description: MCP adapter for Amazon Parallel Computing Service. One tool per consumed operation, routed inline through
+      this capability's consumes block.
+    tools:
+    - name: createcluster
+      description: CreateCluster
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-parallel-computing-service.createcluster
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: createcomputenodegroup
+      description: CreateComputeNodeGroup
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-parallel-computing-service.createcomputenodegroup
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: createqueue
+      description: CreateQueue
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-parallel-computing-service.createqueue
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: deletecluster
+      description: DeleteCluster
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-parallel-computing-service.deletecluster
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: deletecomputenodegroup
+      description: DeleteComputeNodeGroup
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-parallel-computing-service.deletecomputenodegroup
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: deletequeue
+      description: DeleteQueue
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-parallel-computing-service.deletequeue
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: getcluster
+      description: GetCluster
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-parallel-computing-service.getcluster
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: getcomputenodegroup
+      description: GetComputeNodeGroup
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-parallel-computing-service.getcomputenodegroup
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: getqueue
+      description: GetQueue
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-parallel-computing-service.getqueue
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: listclusters
+      description: ListClusters
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-parallel-computing-service.listclusters
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: listcomputenodegroups
+      description: ListComputeNodeGroups
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-parallel-computing-service.listcomputenodegroups
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: listqueues
+      description: ListQueues
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-parallel-computing-service.listqueues
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: listtagsforresource
+      description: ListTagsForResource
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-parallel-computing-service.listtagsforresource
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: registercomputenodegroupinstance
+      description: RegisterComputeNodeGroupInstance
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-parallel-computing-service.registercomputenodegroupinstance
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: tagresource
+      description: TagResource
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-parallel-computing-service.tagresource
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: untagresource
+      description: UntagResource
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-parallel-computing-service.untagresource
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: updatecluster
+      description: UpdateCluster
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-parallel-computing-service.updatecluster
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: updatecomputenodegroup
+      description: UpdateComputeNodeGroup
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-parallel-computing-service.updatecomputenodegroup
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: updatequeue
+      description: UpdateQueue
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-parallel-computing-service.updatequeue
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
