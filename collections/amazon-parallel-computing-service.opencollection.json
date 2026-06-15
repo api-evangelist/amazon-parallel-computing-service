@@ -1,0 +1,295 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Parallel Computing Service",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "CreateCluster",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://pcs.amazonaws.com/CreateCluster",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "CreateCluster"
+    },
+    {
+      "info": {
+        "name": "CreateComputeNodeGroup",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://pcs.amazonaws.com/CreateComputeNodeGroup",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "CreateComputeNodeGroup"
+    },
+    {
+      "info": {
+        "name": "CreateQueue",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://pcs.amazonaws.com/CreateQueue",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "CreateQueue"
+    },
+    {
+      "info": {
+        "name": "DeleteCluster",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://pcs.amazonaws.com/DeleteCluster",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DeleteCluster"
+    },
+    {
+      "info": {
+        "name": "DeleteComputeNodeGroup",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://pcs.amazonaws.com/DeleteComputeNodeGroup",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DeleteComputeNodeGroup"
+    },
+    {
+      "info": {
+        "name": "DeleteQueue",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://pcs.amazonaws.com/DeleteQueue",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DeleteQueue"
+    },
+    {
+      "info": {
+        "name": "GetCluster",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://pcs.amazonaws.com/GetCluster",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "GetCluster"
+    },
+    {
+      "info": {
+        "name": "GetComputeNodeGroup",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://pcs.amazonaws.com/GetComputeNodeGroup",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "GetComputeNodeGroup"
+    },
+    {
+      "info": {
+        "name": "GetQueue",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://pcs.amazonaws.com/GetQueue",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "GetQueue"
+    },
+    {
+      "info": {
+        "name": "ListClusters",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://pcs.amazonaws.com/ListClusters",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "ListClusters"
+    },
+    {
+      "info": {
+        "name": "ListComputeNodeGroups",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://pcs.amazonaws.com/ListComputeNodeGroups",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "ListComputeNodeGroups"
+    },
+    {
+      "info": {
+        "name": "ListQueues",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://pcs.amazonaws.com/ListQueues",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "ListQueues"
+    },
+    {
+      "info": {
+        "name": "ListTagsForResource",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://pcs.amazonaws.com/ListTagsForResource",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "ListTagsForResource"
+    },
+    {
+      "info": {
+        "name": "RegisterComputeNodeGroupInstance",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://pcs.amazonaws.com/RegisterComputeNodeGroupInstance",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "RegisterComputeNodeGroupInstance"
+    },
+    {
+      "info": {
+        "name": "TagResource",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://pcs.amazonaws.com/TagResource",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "TagResource"
+    },
+    {
+      "info": {
+        "name": "UntagResource",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://pcs.amazonaws.com/UntagResource",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "UntagResource"
+    },
+    {
+      "info": {
+        "name": "UpdateCluster",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://pcs.amazonaws.com/UpdateCluster",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "UpdateCluster"
+    },
+    {
+      "info": {
+        "name": "UpdateComputeNodeGroup",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://pcs.amazonaws.com/UpdateComputeNodeGroup",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "UpdateComputeNodeGroup"
+    },
+    {
+      "info": {
+        "name": "UpdateQueue",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://pcs.amazonaws.com/UpdateQueue",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "UpdateQueue"
+    }
+  ],
+  "bundled": true
+}
