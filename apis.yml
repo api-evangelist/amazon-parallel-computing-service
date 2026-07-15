@@ -42,6 +42,8 @@ apis:
       - type: FAQ
         url: https://aws.amazon.com/pcs/faqs/
 common:
+  - type: AgenticAccess
+    url: agentic-access/amazon-parallel-computing-service-agentic-access.yml
   - type: TrustCenter
     url: security/amazon-parallel-computing-service-trust-center.yml
   - type: VulnerabilityDisclosure
