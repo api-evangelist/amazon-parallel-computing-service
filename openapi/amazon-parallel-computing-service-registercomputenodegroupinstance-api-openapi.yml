@@ -1,0 +1,30 @@
+openapi: 3.1.0
+info:
+  title: Amazon Parallel Computing Service CreateCluster RegisterComputeNodeGroupInstance API
+  version: 1.0.0
+  description: Minimal OpenAPI representation of the AWS Parallel Computing Service (PCS) management API. Operations follow the AWS RPC-over-HTTP convention.
+servers:
+- url: https://pcs.amazonaws.com
+tags:
+- name: RegisterComputeNodeGroupInstance
+paths:
+  /RegisterComputeNodeGroupInstance:
+    post:
+      summary: RegisterComputeNodeGroupInstance
+      operationId: RegisterComputeNodeGroupInstance
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+      tags:
+      - RegisterComputeNodeGroupInstance
+x-generated-from: https://docs.aws.amazon.com/pcs/latest/APIReference/Welcome.html
+x-generated-by: claude-crawl-2026-05-08
