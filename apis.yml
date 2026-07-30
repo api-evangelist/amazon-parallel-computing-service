@@ -5,7 +5,19 @@ description: >-
   computing (HPC) clusters on AWS. It provides familiar scheduler interfaces, integrates with existing HPC tools, and
   scales automatically to handle demanding workloads.
 type: Index
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: freemium
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Freemium
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon-parallel-computing-service.png
 tags:
   - AWS
   - High Performance Computing
@@ -17,30 +29,413 @@ created: '2026-03-16'
 modified: '2026-05-19'
 specificationVersion: '0.19'
 apis:
-  - aid: amazon-parallel-computing-service:aws-pcs-api
-    name: AWS Parallel Computing Service API
-    description: >-
-      The AWS Parallel Computing Service API provides programmatic access to create and manage HPC clusters, compute
-      node groups, queues, and job scheduling for high performance computing workloads.
-    humanURL: https://aws.amazon.com/pcs/
-    baseURL: https://pcs.amazonaws.com
-    tags:
-      - High Performance Computing
-      - HPC
-      - Parallel Computing
-    properties:
-      - url: openapi/amazon-parallel-computing-service-openapi.yml
-        type: OpenAPI
-      - type: Documentation
-        url: https://docs.aws.amazon.com/pcs/latest/APIReference/Welcome.html
-      - type: APIReference
-        url: https://docs.aws.amazon.com/pcs/latest/APIReference/Welcome.html
-      - type: GettingStarted
-        url: https://aws.amazon.com/pcs/getting-started/
-      - type: Pricing
-        url: https://aws.amazon.com/pcs/pricing/
-      - type: FAQ
-        url: https://aws.amazon.com/pcs/faqs/
+- aid: amazon-parallel-computing-service:amazon-parallel-computing-service-createcluster-api
+  name: Amazon Parallel Computing Service CreateCluster API
+  description: >-
+    The CreateCluster API from Amazon Parallel Computing Service — 1 operation(s) for createcluster.
+  humanURL: https://aws.amazon.com/pcs/
+  baseURL: https://pcs.amazonaws.com
+  tags:
+  - CreateCluster
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-parallel-computing-service-createcluster-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/pcs/latest/APIReference/Welcome.html
+  - type: APIReference
+    url: https://docs.aws.amazon.com/pcs/latest/APIReference/Welcome.html
+  - type: GettingStarted
+    url: https://aws.amazon.com/pcs/getting-started/
+  - type: Pricing
+    url: https://aws.amazon.com/pcs/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/pcs/faqs/
+- aid: >-
+    amazon-parallel-computing-service:amazon-parallel-computing-service-createcomputenodegroup-api
+  name: Amazon Parallel Computing Service CreateComputeNodeGroup API
+  description: >-
+    The CreateComputeNodeGroup API from Amazon Parallel Computing Service — 1 operation(s) for createcomputenodegroup.
+  humanURL: https://aws.amazon.com/pcs/
+  baseURL: https://pcs.amazonaws.com
+  tags:
+  - CreateComputeNodeGroup
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-parallel-computing-service-createcomputenodegroup-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/pcs/latest/APIReference/Welcome.html
+  - type: APIReference
+    url: https://docs.aws.amazon.com/pcs/latest/APIReference/Welcome.html
+  - type: GettingStarted
+    url: https://aws.amazon.com/pcs/getting-started/
+  - type: Pricing
+    url: https://aws.amazon.com/pcs/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/pcs/faqs/
+- aid: amazon-parallel-computing-service:amazon-parallel-computing-service-createqueue-api
+  name: Amazon Parallel Computing Service CreateQueue API
+  description: >-
+    The CreateQueue API from Amazon Parallel Computing Service — 1 operation(s) for createqueue.
+  humanURL: https://aws.amazon.com/pcs/
+  baseURL: https://pcs.amazonaws.com
+  tags:
+  - CreateQueue
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-parallel-computing-service-createqueue-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/pcs/latest/APIReference/Welcome.html
+  - type: APIReference
+    url: https://docs.aws.amazon.com/pcs/latest/APIReference/Welcome.html
+  - type: GettingStarted
+    url: https://aws.amazon.com/pcs/getting-started/
+  - type: Pricing
+    url: https://aws.amazon.com/pcs/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/pcs/faqs/
+- aid: amazon-parallel-computing-service:amazon-parallel-computing-service-deletecluster-api
+  name: Amazon Parallel Computing Service DeleteCluster API
+  description: >-
+    The DeleteCluster API from Amazon Parallel Computing Service — 1 operation(s) for deletecluster.
+  humanURL: https://aws.amazon.com/pcs/
+  baseURL: https://pcs.amazonaws.com
+  tags:
+  - DeleteCluster
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-parallel-computing-service-deletecluster-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/pcs/latest/APIReference/Welcome.html
+  - type: APIReference
+    url: https://docs.aws.amazon.com/pcs/latest/APIReference/Welcome.html
+  - type: GettingStarted
+    url: https://aws.amazon.com/pcs/getting-started/
+  - type: Pricing
+    url: https://aws.amazon.com/pcs/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/pcs/faqs/
+- aid: >-
+    amazon-parallel-computing-service:amazon-parallel-computing-service-deletecomputenodegroup-api
+  name: Amazon Parallel Computing Service DeleteComputeNodeGroup API
+  description: >-
+    The DeleteComputeNodeGroup API from Amazon Parallel Computing Service — 1 operation(s) for deletecomputenodegroup.
+  humanURL: https://aws.amazon.com/pcs/
+  baseURL: https://pcs.amazonaws.com
+  tags:
+  - DeleteComputeNodeGroup
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-parallel-computing-service-deletecomputenodegroup-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/pcs/latest/APIReference/Welcome.html
+  - type: APIReference
+    url: https://docs.aws.amazon.com/pcs/latest/APIReference/Welcome.html
+  - type: GettingStarted
+    url: https://aws.amazon.com/pcs/getting-started/
+  - type: Pricing
+    url: https://aws.amazon.com/pcs/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/pcs/faqs/
+- aid: amazon-parallel-computing-service:amazon-parallel-computing-service-deletequeue-api
+  name: Amazon Parallel Computing Service DeleteQueue API
+  description: >-
+    The DeleteQueue API from Amazon Parallel Computing Service — 1 operation(s) for deletequeue.
+  humanURL: https://aws.amazon.com/pcs/
+  baseURL: https://pcs.amazonaws.com
+  tags:
+  - DeleteQueue
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-parallel-computing-service-deletequeue-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/pcs/latest/APIReference/Welcome.html
+  - type: APIReference
+    url: https://docs.aws.amazon.com/pcs/latest/APIReference/Welcome.html
+  - type: GettingStarted
+    url: https://aws.amazon.com/pcs/getting-started/
+  - type: Pricing
+    url: https://aws.amazon.com/pcs/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/pcs/faqs/
+- aid: amazon-parallel-computing-service:amazon-parallel-computing-service-getcluster-api
+  name: Amazon Parallel Computing Service GetCluster API
+  description: >-
+    The GetCluster API from Amazon Parallel Computing Service — 1 operation(s) for getcluster.
+  humanURL: https://aws.amazon.com/pcs/
+  baseURL: https://pcs.amazonaws.com
+  tags:
+  - GetCluster
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-parallel-computing-service-getcluster-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/pcs/latest/APIReference/Welcome.html
+  - type: APIReference
+    url: https://docs.aws.amazon.com/pcs/latest/APIReference/Welcome.html
+  - type: GettingStarted
+    url: https://aws.amazon.com/pcs/getting-started/
+  - type: Pricing
+    url: https://aws.amazon.com/pcs/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/pcs/faqs/
+- aid: >-
+    amazon-parallel-computing-service:amazon-parallel-computing-service-getcomputenodegroup-api
+  name: Amazon Parallel Computing Service GetComputeNodeGroup API
+  description: >-
+    The GetComputeNodeGroup API from Amazon Parallel Computing Service — 1 operation(s) for getcomputenodegroup.
+  humanURL: https://aws.amazon.com/pcs/
+  baseURL: https://pcs.amazonaws.com
+  tags:
+  - GetComputeNodeGroup
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-parallel-computing-service-getcomputenodegroup-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/pcs/latest/APIReference/Welcome.html
+  - type: APIReference
+    url: https://docs.aws.amazon.com/pcs/latest/APIReference/Welcome.html
+  - type: GettingStarted
+    url: https://aws.amazon.com/pcs/getting-started/
+  - type: Pricing
+    url: https://aws.amazon.com/pcs/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/pcs/faqs/
+- aid: amazon-parallel-computing-service:amazon-parallel-computing-service-getqueue-api
+  name: Amazon Parallel Computing Service GetQueue API
+  description: The GetQueue API from Amazon Parallel Computing Service — 1 operation(s) for getqueue.
+  humanURL: https://aws.amazon.com/pcs/
+  baseURL: https://pcs.amazonaws.com
+  tags:
+  - GetQueue
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-parallel-computing-service-getqueue-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/pcs/latest/APIReference/Welcome.html
+  - type: APIReference
+    url: https://docs.aws.amazon.com/pcs/latest/APIReference/Welcome.html
+  - type: GettingStarted
+    url: https://aws.amazon.com/pcs/getting-started/
+  - type: Pricing
+    url: https://aws.amazon.com/pcs/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/pcs/faqs/
+- aid: amazon-parallel-computing-service:amazon-parallel-computing-service-listclusters-api
+  name: Amazon Parallel Computing Service ListClusters API
+  description: >-
+    The ListClusters API from Amazon Parallel Computing Service — 1 operation(s) for listclusters.
+  humanURL: https://aws.amazon.com/pcs/
+  baseURL: https://pcs.amazonaws.com
+  tags:
+  - ListClusters
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-parallel-computing-service-listclusters-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/pcs/latest/APIReference/Welcome.html
+  - type: APIReference
+    url: https://docs.aws.amazon.com/pcs/latest/APIReference/Welcome.html
+  - type: GettingStarted
+    url: https://aws.amazon.com/pcs/getting-started/
+  - type: Pricing
+    url: https://aws.amazon.com/pcs/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/pcs/faqs/
+- aid: >-
+    amazon-parallel-computing-service:amazon-parallel-computing-service-listcomputenodegroups-api
+  name: Amazon Parallel Computing Service ListComputeNodeGroups API
+  description: >-
+    The ListComputeNodeGroups API from Amazon Parallel Computing Service — 1 operation(s) for listcomputenodegroups.
+  humanURL: https://aws.amazon.com/pcs/
+  baseURL: https://pcs.amazonaws.com
+  tags:
+  - ListComputeNodeGroups
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-parallel-computing-service-listcomputenodegroups-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/pcs/latest/APIReference/Welcome.html
+  - type: APIReference
+    url: https://docs.aws.amazon.com/pcs/latest/APIReference/Welcome.html
+  - type: GettingStarted
+    url: https://aws.amazon.com/pcs/getting-started/
+  - type: Pricing
+    url: https://aws.amazon.com/pcs/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/pcs/faqs/
+- aid: amazon-parallel-computing-service:amazon-parallel-computing-service-listqueues-api
+  name: Amazon Parallel Computing Service ListQueues API
+  description: >-
+    The ListQueues API from Amazon Parallel Computing Service — 1 operation(s) for listqueues.
+  humanURL: https://aws.amazon.com/pcs/
+  baseURL: https://pcs.amazonaws.com
+  tags:
+  - ListQueues
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-parallel-computing-service-listqueues-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/pcs/latest/APIReference/Welcome.html
+  - type: APIReference
+    url: https://docs.aws.amazon.com/pcs/latest/APIReference/Welcome.html
+  - type: GettingStarted
+    url: https://aws.amazon.com/pcs/getting-started/
+  - type: Pricing
+    url: https://aws.amazon.com/pcs/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/pcs/faqs/
+- aid: >-
+    amazon-parallel-computing-service:amazon-parallel-computing-service-listtagsforresource-api
+  name: Amazon Parallel Computing Service ListTagsForResource API
+  description: >-
+    The ListTagsForResource API from Amazon Parallel Computing Service — 1 operation(s) for listtagsforresource.
+  humanURL: https://aws.amazon.com/pcs/
+  baseURL: https://pcs.amazonaws.com
+  tags:
+  - ListTagsForResource
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-parallel-computing-service-listtagsforresource-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/pcs/latest/APIReference/Welcome.html
+  - type: APIReference
+    url: https://docs.aws.amazon.com/pcs/latest/APIReference/Welcome.html
+  - type: GettingStarted
+    url: https://aws.amazon.com/pcs/getting-started/
+  - type: Pricing
+    url: https://aws.amazon.com/pcs/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/pcs/faqs/
+- aid: >-
+    amazon-parallel-computing-service:amazon-parallel-computing-service-registercomputenodegroupinstance-api
+  name: Amazon Parallel Computing Service RegisterComputeNodeGroupInstance API
+  description: >-
+    The RegisterComputeNodeGroupInstance API from Amazon Parallel Computing Service — 1 operation(s) for
+    registercomputenodegroupinstance.
+  humanURL: https://aws.amazon.com/pcs/
+  baseURL: https://pcs.amazonaws.com
+  tags:
+  - RegisterComputeNodeGroupInstance
+  properties:
+  - type: OpenAPI
+    url: >-
+      openapi/amazon-parallel-computing-service-registercomputenodegroupinstance-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/pcs/latest/APIReference/Welcome.html
+  - type: APIReference
+    url: https://docs.aws.amazon.com/pcs/latest/APIReference/Welcome.html
+  - type: GettingStarted
+    url: https://aws.amazon.com/pcs/getting-started/
+  - type: Pricing
+    url: https://aws.amazon.com/pcs/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/pcs/faqs/
+- aid: amazon-parallel-computing-service:amazon-parallel-computing-service-tagresource-api
+  name: Amazon Parallel Computing Service TagResource API
+  description: >-
+    The TagResource API from Amazon Parallel Computing Service — 1 operation(s) for tagresource.
+  humanURL: https://aws.amazon.com/pcs/
+  baseURL: https://pcs.amazonaws.com
+  tags:
+  - TagResource
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-parallel-computing-service-tagresource-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/pcs/latest/APIReference/Welcome.html
+  - type: APIReference
+    url: https://docs.aws.amazon.com/pcs/latest/APIReference/Welcome.html
+  - type: GettingStarted
+    url: https://aws.amazon.com/pcs/getting-started/
+  - type: Pricing
+    url: https://aws.amazon.com/pcs/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/pcs/faqs/
+- aid: amazon-parallel-computing-service:amazon-parallel-computing-service-untagresource-api
+  name: Amazon Parallel Computing Service UntagResource API
+  description: >-
+    The UntagResource API from Amazon Parallel Computing Service — 1 operation(s) for untagresource.
+  humanURL: https://aws.amazon.com/pcs/
+  baseURL: https://pcs.amazonaws.com
+  tags:
+  - UntagResource
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-parallel-computing-service-untagresource-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/pcs/latest/APIReference/Welcome.html
+  - type: APIReference
+    url: https://docs.aws.amazon.com/pcs/latest/APIReference/Welcome.html
+  - type: GettingStarted
+    url: https://aws.amazon.com/pcs/getting-started/
+  - type: Pricing
+    url: https://aws.amazon.com/pcs/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/pcs/faqs/
+- aid: amazon-parallel-computing-service:amazon-parallel-computing-service-updatecluster-api
+  name: Amazon Parallel Computing Service UpdateCluster API
+  description: >-
+    The UpdateCluster API from Amazon Parallel Computing Service — 1 operation(s) for updatecluster.
+  humanURL: https://aws.amazon.com/pcs/
+  baseURL: https://pcs.amazonaws.com
+  tags:
+  - UpdateCluster
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-parallel-computing-service-updatecluster-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/pcs/latest/APIReference/Welcome.html
+  - type: APIReference
+    url: https://docs.aws.amazon.com/pcs/latest/APIReference/Welcome.html
+  - type: GettingStarted
+    url: https://aws.amazon.com/pcs/getting-started/
+  - type: Pricing
+    url: https://aws.amazon.com/pcs/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/pcs/faqs/
+- aid: >-
+    amazon-parallel-computing-service:amazon-parallel-computing-service-updatecomputenodegroup-api
+  name: Amazon Parallel Computing Service UpdateComputeNodeGroup API
+  description: >-
+    The UpdateComputeNodeGroup API from Amazon Parallel Computing Service — 1 operation(s) for updatecomputenodegroup.
+  humanURL: https://aws.amazon.com/pcs/
+  baseURL: https://pcs.amazonaws.com
+  tags:
+  - UpdateComputeNodeGroup
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-parallel-computing-service-updatecomputenodegroup-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/pcs/latest/APIReference/Welcome.html
+  - type: APIReference
+    url: https://docs.aws.amazon.com/pcs/latest/APIReference/Welcome.html
+  - type: GettingStarted
+    url: https://aws.amazon.com/pcs/getting-started/
+  - type: Pricing
+    url: https://aws.amazon.com/pcs/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/pcs/faqs/
+- aid: amazon-parallel-computing-service:amazon-parallel-computing-service-updatequeue-api
+  name: Amazon Parallel Computing Service UpdateQueue API
+  description: >-
+    The UpdateQueue API from Amazon Parallel Computing Service — 1 operation(s) for updatequeue.
+  humanURL: https://aws.amazon.com/pcs/
+  baseURL: https://pcs.amazonaws.com
+  tags:
+  - UpdateQueue
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-parallel-computing-service-updatequeue-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/pcs/latest/APIReference/Welcome.html
+  - type: APIReference
+    url: https://docs.aws.amazon.com/pcs/latest/APIReference/Welcome.html
+  - type: GettingStarted
+    url: https://aws.amazon.com/pcs/getting-started/
+  - type: Pricing
+    url: https://aws.amazon.com/pcs/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/pcs/faqs/
 common:
   - type: AgenticAccess
     url: agentic-access/amazon-parallel-computing-service-agentic-access.yml
