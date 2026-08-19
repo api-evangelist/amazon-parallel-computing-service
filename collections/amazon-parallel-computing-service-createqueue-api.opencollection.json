@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Parallel Computing Service CreateCluster CreateQueue API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "CreateQueue",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "CreateQueue",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://pcs.amazonaws.com/CreateQueue",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "CreateQueue"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Parallel Computing Service CreateCluster GetQueue API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "GetQueue",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "GetQueue",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://pcs.amazonaws.com/GetQueue",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "GetQueue"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

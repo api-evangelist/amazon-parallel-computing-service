@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Parallel Computing Service CreateCluster UpdateCluster API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "UpdateCluster",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "UpdateCluster",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://pcs.amazonaws.com/UpdateCluster",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "UpdateCluster"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

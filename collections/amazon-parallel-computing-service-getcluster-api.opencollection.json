@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Parallel Computing Service CreateCluster GetCluster API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "GetCluster",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "GetCluster",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://pcs.amazonaws.com/GetCluster",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "GetCluster"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

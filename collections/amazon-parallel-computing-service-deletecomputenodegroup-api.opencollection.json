@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Parallel Computing Service CreateCluster DeleteComputeNodeGroup API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "DeleteComputeNodeGroup",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "DeleteComputeNodeGroup",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://pcs.amazonaws.com/DeleteComputeNodeGroup",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "DeleteComputeNodeGroup"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Parallel Computing Service CreateCluster DeleteQueue API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "DeleteQueue",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "DeleteQueue",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://pcs.amazonaws.com/DeleteQueue",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "DeleteQueue"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

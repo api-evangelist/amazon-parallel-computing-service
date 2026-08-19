@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Parallel Computing Service CreateCluster UpdateQueue API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "UpdateQueue",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "UpdateQueue",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://pcs.amazonaws.com/UpdateQueue",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "UpdateQueue"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

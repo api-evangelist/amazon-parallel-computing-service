@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Parallel Computing Service CreateCluster GetComputeNodeGroup API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "GetComputeNodeGroup",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "GetComputeNodeGroup",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://pcs.amazonaws.com/GetComputeNodeGroup",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "GetComputeNodeGroup"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

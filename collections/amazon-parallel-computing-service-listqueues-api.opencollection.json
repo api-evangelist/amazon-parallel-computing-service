@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Parallel Computing Service CreateCluster ListQueues API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "ListQueues",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "ListQueues",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://pcs.amazonaws.com/ListQueues",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "ListQueues"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

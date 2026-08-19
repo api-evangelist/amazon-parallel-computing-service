@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon Parallel Computing Service CreateCluster DeleteCluster API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "DeleteCluster",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "DeleteCluster",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://pcs.amazonaws.com/DeleteCluster",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "DeleteCluster"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}
