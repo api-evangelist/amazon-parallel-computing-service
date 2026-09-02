@@ -1,6 +1,6 @@
-openapi: 3.1.0
+openapi: 3.2.0
 info:
-  title: Amazon Parallel Computing Service CreateCluster UpdateCluster API
+  title: Amazon Parallel Computing Service CreateCluster Update Cluster API
   version: 1.0.0
   description: Minimal OpenAPI representation of the AWS Parallel Computing Service (PCS) management API. Operations follow the AWS RPC-over-HTTP convention.
 servers:
