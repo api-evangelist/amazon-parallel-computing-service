@@ -297,28 +297,6 @@ apis:
   - type: FAQ
     url: https://aws.amazon.com/pcs/faqs/
 - aid: >-
-    amazon-parallel-computing-service:amazon-parallel-computing-service-listtagsforresource-api
-  name: Amazon Parallel Computing Service ListTagsForResource API
-  description: >-
-    The ListTagsForResource API from Amazon Parallel Computing Service — 1 operation(s) for listtagsforresource.
-  humanURL: https://aws.amazon.com/pcs/
-  baseURL: https://pcs.amazonaws.com
-  tags:
-  - ListTagsForResource
-  properties:
-  - type: OpenAPI
-    url: openapi/amazon-parallel-computing-service-listtagsforresource-api-openapi.yml
-  - type: Documentation
-    url: https://docs.aws.amazon.com/pcs/latest/APIReference/Welcome.html
-  - type: APIReference
-    url: https://docs.aws.amazon.com/pcs/latest/APIReference/Welcome.html
-  - type: GettingStarted
-    url: https://aws.amazon.com/pcs/getting-started/
-  - type: Pricing
-    url: https://aws.amazon.com/pcs/pricing/
-  - type: FAQ
-    url: https://aws.amazon.com/pcs/faqs/
-- aid: >-
     amazon-parallel-computing-service:amazon-parallel-computing-service-registercomputenodegroupinstance-api
   name: Amazon Parallel Computing Service RegisterComputeNodeGroupInstance API
   description: >-
@@ -332,48 +310,6 @@ apis:
   - type: OpenAPI
     url: >-
       openapi/amazon-parallel-computing-service-registercomputenodegroupinstance-api-openapi.yml
-  - type: Documentation
-    url: https://docs.aws.amazon.com/pcs/latest/APIReference/Welcome.html
-  - type: APIReference
-    url: https://docs.aws.amazon.com/pcs/latest/APIReference/Welcome.html
-  - type: GettingStarted
-    url: https://aws.amazon.com/pcs/getting-started/
-  - type: Pricing
-    url: https://aws.amazon.com/pcs/pricing/
-  - type: FAQ
-    url: https://aws.amazon.com/pcs/faqs/
-- aid: amazon-parallel-computing-service:amazon-parallel-computing-service-tagresource-api
-  name: Amazon Parallel Computing Service TagResource API
-  description: >-
-    The TagResource API from Amazon Parallel Computing Service — 1 operation(s) for tagresource.
-  humanURL: https://aws.amazon.com/pcs/
-  baseURL: https://pcs.amazonaws.com
-  tags:
-  - TagResource
-  properties:
-  - type: OpenAPI
-    url: openapi/amazon-parallel-computing-service-tagresource-api-openapi.yml
-  - type: Documentation
-    url: https://docs.aws.amazon.com/pcs/latest/APIReference/Welcome.html
-  - type: APIReference
-    url: https://docs.aws.amazon.com/pcs/latest/APIReference/Welcome.html
-  - type: GettingStarted
-    url: https://aws.amazon.com/pcs/getting-started/
-  - type: Pricing
-    url: https://aws.amazon.com/pcs/pricing/
-  - type: FAQ
-    url: https://aws.amazon.com/pcs/faqs/
-- aid: amazon-parallel-computing-service:amazon-parallel-computing-service-untagresource-api
-  name: Amazon Parallel Computing Service UntagResource API
-  description: >-
-    The UntagResource API from Amazon Parallel Computing Service — 1 operation(s) for untagresource.
-  humanURL: https://aws.amazon.com/pcs/
-  baseURL: https://pcs.amazonaws.com
-  tags:
-  - UntagResource
-  properties:
-  - type: OpenAPI
-    url: openapi/amazon-parallel-computing-service-untagresource-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/pcs/latest/APIReference/Welcome.html
   - type: APIReference
@@ -438,6 +374,71 @@ apis:
   properties:
   - type: OpenAPI
     url: openapi/amazon-parallel-computing-service-updatequeue-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/pcs/latest/APIReference/Welcome.html
+  - type: APIReference
+    url: https://docs.aws.amazon.com/pcs/latest/APIReference/Welcome.html
+  - type: GettingStarted
+    url: https://aws.amazon.com/pcs/getting-started/
+  - type: Pricing
+    url: https://aws.amazon.com/pcs/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/pcs/faqs/
+- aid: >-
+    amazon-parallel-computing-service:amazon-parallel-computing-service-list-tags-for-resource-api
+  name: Amazon Parallel Computing Service List Tags For Resource API
+  description: >-
+    The List Tags For Resource API from Amazon Parallel Computing Service — 1 operation(s) for list tags
+    for resource.
+  humanURL: https://aws.amazon.com/pcs/
+  baseURL: https://pcs.amazonaws.com
+  tags:
+  - List Tags For Resource
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-parallel-computing-service-list-tags-for-resource-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/pcs/latest/APIReference/Welcome.html
+  - type: APIReference
+    url: https://docs.aws.amazon.com/pcs/latest/APIReference/Welcome.html
+  - type: GettingStarted
+    url: https://aws.amazon.com/pcs/getting-started/
+  - type: Pricing
+    url: https://aws.amazon.com/pcs/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/pcs/faqs/
+- aid: amazon-parallel-computing-service:amazon-parallel-computing-service-tag-resource-api
+  name: Amazon Parallel Computing Service Tag Resource API
+  description: >-
+    The Tag Resource API from Amazon Parallel Computing Service — 1 operation(s) for tag resource.
+  humanURL: https://aws.amazon.com/pcs/
+  baseURL: https://pcs.amazonaws.com
+  tags:
+  - Tag Resource
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-parallel-computing-service-tag-resource-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/pcs/latest/APIReference/Welcome.html
+  - type: APIReference
+    url: https://docs.aws.amazon.com/pcs/latest/APIReference/Welcome.html
+  - type: GettingStarted
+    url: https://aws.amazon.com/pcs/getting-started/
+  - type: Pricing
+    url: https://aws.amazon.com/pcs/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/pcs/faqs/
+- aid: amazon-parallel-computing-service:amazon-parallel-computing-service-untag-resource-api
+  name: Amazon Parallel Computing Service Untag Resource API
+  description: >-
+    The Untag Resource API from Amazon Parallel Computing Service — 1 operation(s) for untag resource.
+  humanURL: https://aws.amazon.com/pcs/
+  baseURL: https://pcs.amazonaws.com
+  tags:
+  - Untag Resource
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-parallel-computing-service-untag-resource-api-openapi.yml
   - type: Documentation
     url: https://docs.aws.amazon.com/pcs/latest/APIReference/Welcome.html
   - type: APIReference
