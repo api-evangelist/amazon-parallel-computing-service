@@ -450,6 +450,9 @@ apis:
   - type: FAQ
     url: https://aws.amazon.com/pcs/faqs/
 common:
+  - type: CapabilityMap
+    url: capabilities/amazon-parallel-computing-service-capability-edges.yml
+    name: Amazon Parallel Computing Service Business Capability Map
   - type: AgenticAccess
     url: agentic-access/amazon-parallel-computing-service-agentic-access.yml
   - type: TrustCenter

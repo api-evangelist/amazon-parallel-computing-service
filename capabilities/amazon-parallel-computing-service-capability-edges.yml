@@ -1,0 +1,95 @@
+slug: amazon-parallel-computing-service
+provider: Amazon Parallel Computing Service
+generated_by: planning/capability-mapping/scripts/classify_capabilities.py
+model: claude-opus-5
+frame:
+- Software & Technology
+min_confidence: 0.7
+capability_model:
+  source: https://github.com/vincentmakes/turbo-ea-capabilities
+  license: CC-BY-4.0
+  attribution: Turbo EA Capabilities by Vincent Verdet — Turbo EA, https://github.com/vincentmakes/turbo-ea-capabilities,
+    CC BY 4.0
+  notice: NOTICE
+edge_count: 9
+edges:
+- tag: CreateCluster
+  spec_file: amazon-parallel-computing-service-createcluster-api-openapi.yml
+  capability_id: BC-600.50
+  capability_id_l1: BC-600
+  capability_name: IT Infrastructure Management
+  confidence: 0.78
+  evidence: POST /CreateCluster CreateCluster — "makes it easy to create and manage high performance computing
+    (HPC) clusters on AWS"
+  reason: The operation provisions an HPC compute cluster, i.e. management of compute infrastructure.
+    Maps to IT Infrastructure Management; the spec is minimal (no schemas) so confidence is moderate rather
+    than high.
+- tag: CreateComputeNodeGroup
+  spec_file: amazon-parallel-computing-service-createcomputenodegroup-api-openapi.yml
+  capability_id: BC-600.50
+  capability_id_l1: BC-600
+  capability_name: IT Infrastructure Management
+  confidence: 0.78
+  evidence: POST /CreateComputeNodeGroup CreateComputeNodeGroup — "create and manage high performance
+    computing (HPC) clusters on AWS"
+  reason: Creates a group of compute nodes for an HPC cluster — provisioning of compute capacity, i.e.
+    IT infrastructure (compute) management.
+- tag: DeleteCluster
+  spec_file: amazon-parallel-computing-service-deletecluster-api-openapi.yml
+  capability_id: BC-600.50
+  capability_id_l1: BC-600
+  capability_name: IT Infrastructure Management
+  confidence: 0.78
+  evidence: POST /DeleteCluster DeleteCluster — "create and manage high performance computing (HPC) clusters
+    on AWS"
+  reason: Decommissions an HPC compute cluster; part of the cloud compute infrastructure lifecycle.
+- tag: DeleteComputeNodeGroup
+  spec_file: amazon-parallel-computing-service-deletecomputenodegroup-api-openapi.yml
+  capability_id: BC-600.50
+  capability_id_l1: BC-600
+  capability_name: IT Infrastructure Management
+  confidence: 0.78
+  evidence: POST /DeleteComputeNodeGroup DeleteComputeNodeGroup — "HPC clusters on AWS"
+  reason: Removes compute node capacity from an HPC cluster — compute infrastructure management.
+- tag: GetCluster
+  spec_file: amazon-parallel-computing-service-getcluster-api-openapi.yml
+  capability_id: BC-600.50
+  capability_id_l1: BC-600
+  capability_name: IT Infrastructure Management
+  confidence: 0.75
+  evidence: POST /GetCluster GetCluster — "create and manage high performance computing (HPC) clusters
+    on AWS"
+  reason: Read operation on HPC compute cluster configuration/state; part of compute infrastructure management.
+- tag: GetComputeNodeGroup
+  spec_file: amazon-parallel-computing-service-getcomputenodegroup-api-openapi.yml
+  capability_id: BC-600.50
+  capability_id_l1: BC-600
+  capability_name: IT Infrastructure Management
+  confidence: 0.75
+  evidence: POST /GetComputeNodeGroup GetComputeNodeGroup — "HPC clusters on AWS"
+  reason: Retrieves compute node group detail — inspection of provisioned compute infrastructure.
+- tag: ListClusters
+  spec_file: amazon-parallel-computing-service-listclusters-api-openapi.yml
+  capability_id: BC-600.50
+  capability_id_l1: BC-600
+  capability_name: IT Infrastructure Management
+  confidence: 0.75
+  evidence: POST /ListClusters ListClusters — "create and manage high performance computing (HPC) clusters
+    on AWS"
+  reason: Enumerates provisioned HPC compute clusters — inventory/visibility of cloud compute infrastructure.
+- tag: UpdateCluster
+  spec_file: amazon-parallel-computing-service-updatecluster-api-openapi.yml
+  capability_id: BC-600.50
+  capability_id_l1: BC-600
+  capability_name: IT Infrastructure Management
+  confidence: 0.7
+  evidence: POST /UpdateCluster — "create and manage high performance computing (HPC) clusters on AWS"
+  reason: Updating an HPC cluster is direct management of compute infrastructure.
+- tag: UpdateComputeNodeGroup
+  spec_file: amazon-parallel-computing-service-updatecomputenodegroup-api-openapi.yml
+  capability_id: BC-600.50
+  capability_id_l1: BC-600
+  capability_name: IT Infrastructure Management
+  confidence: 0.7
+  evidence: POST /UpdateComputeNodeGroup — HPC cluster management API
+  reason: Modifying compute node group configuration is compute/cloud infrastructure management.
