@@ -450,6 +450,12 @@ apis:
   - type: FAQ
     url: https://aws.amazon.com/pcs/faqs/
 common:
+  - type: Plans
+    url: plans/amazon-parallel-computing-service-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/amazon-parallel-computing-service-rate-limits.yml
+  - type: FinOps
+    url: finops/amazon-parallel-computing-service-finops.yml
   - type: CapabilityMap
     url: capabilities/amazon-parallel-computing-service-capability-edges.yml
     name: Amazon Parallel Computing Service Business Capability Map
