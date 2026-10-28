@@ -1,4 +1,4 @@
-# Amazon Parallel Computing Service (amazon-parallel-computing-service)
+# Amazon Parallel Computing Service
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,70 +66,171 @@
 
 AWS Parallel Computing Service (PCS) is a managed service that makes it easy to create and manage high performance computing (HPC) clusters on AWS. It provides familiar scheduler interfaces, integrates with existing HPC tools, and scales automatically to handle demanding workloads.
 
-**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/amazon-parallel-computing-service/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/amazon-parallel-computing-service/refs/heads/main/apis.yml)
+**Areas:** AWS · High Performance Computing · HPC · Parallel Computing · Scientific Computing
 
-## Scope
+## Amazon Parallel Computing Service on APIs.io
 
-- **Type:** Index
+Everything profiled for Amazon Parallel Computing Service is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/amazon-parallel-computing-service/](https://apis.io/providers/amazon-parallel-computing-service/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (19)
 
-- AWS
-- High Performance Computing
-- HPC
-- Parallel Computing
-- Scientific Computing
+- [Amazon Parallel Computing Service CreateCluster API](https://apis.io/apis/amazon-parallel-computing-service/amazon-parallel-computing-service-createcluster-api/) — The CreateCluster API from Amazon Parallel Computing Service — 1 operation(s) for createcluster.
+- [Amazon Parallel Computing Service CreateComputeNodeGroup API](https://apis.io/apis/amazon-parallel-computing-service/amazon-parallel-computing-service-createcomputenodegroup-api/) — The CreateComputeNodeGroup API from Amazon Parallel Computing Service — 1 operation(s) for createcomputenodegroup.
+- [Amazon Parallel Computing Service CreateQueue API](https://apis.io/apis/amazon-parallel-computing-service/amazon-parallel-computing-service-createqueue-api/) — The CreateQueue API from Amazon Parallel Computing Service — 1 operation(s) for createqueue.
+- [Amazon Parallel Computing Service DeleteCluster API](https://apis.io/apis/amazon-parallel-computing-service/amazon-parallel-computing-service-deletecluster-api/) — The DeleteCluster API from Amazon Parallel Computing Service — 1 operation(s) for deletecluster.
+- [Amazon Parallel Computing Service DeleteComputeNodeGroup API](https://apis.io/apis/amazon-parallel-computing-service/amazon-parallel-computing-service-deletecomputenodegroup-api/) — The DeleteComputeNodeGroup API from Amazon Parallel Computing Service — 1 operation(s) for deletecomputenodegroup.
+- [Amazon Parallel Computing Service DeleteQueue API](https://apis.io/apis/amazon-parallel-computing-service/amazon-parallel-computing-service-deletequeue-api/) — The DeleteQueue API from Amazon Parallel Computing Service — 1 operation(s) for deletequeue.
+- [Amazon Parallel Computing Service GetCluster API](https://apis.io/apis/amazon-parallel-computing-service/amazon-parallel-computing-service-getcluster-api/) — The GetCluster API from Amazon Parallel Computing Service — 1 operation(s) for getcluster.
+- [Amazon Parallel Computing Service GetComputeNodeGroup API](https://apis.io/apis/amazon-parallel-computing-service/amazon-parallel-computing-service-getcomputenodegroup-api/) — The GetComputeNodeGroup API from Amazon Parallel Computing Service — 1 operation(s) for getcomputenodegroup.
+- [Amazon Parallel Computing Service GetQueue API](https://apis.io/apis/amazon-parallel-computing-service/amazon-parallel-computing-service-getqueue-api/) — The GetQueue API from Amazon Parallel Computing Service — 1 operation(s) for getqueue.
+- [Amazon Parallel Computing Service ListClusters API](https://apis.io/apis/amazon-parallel-computing-service/amazon-parallel-computing-service-listclusters-api/) — The ListClusters API from Amazon Parallel Computing Service — 1 operation(s) for listclusters.
+- [Amazon Parallel Computing Service ListComputeNodeGroups API](https://apis.io/apis/amazon-parallel-computing-service/amazon-parallel-computing-service-listcomputenodegroups-api/) — The ListComputeNodeGroups API from Amazon Parallel Computing Service — 1 operation(s) for listcomputenodegroups.
+- [Amazon Parallel Computing Service ListQueues API](https://apis.io/apis/amazon-parallel-computing-service/amazon-parallel-computing-service-listqueues-api/) — The ListQueues API from Amazon Parallel Computing Service — 1 operation(s) for listqueues.
+- [Amazon Parallel Computing Service RegisterComputeNodeGroupInstance API](https://apis.io/apis/amazon-parallel-computing-service/amazon-parallel-computing-service-registercomputenodegroupinstance-api/) — The RegisterComputeNodeGroupInstance API from Amazon Parallel Computing Service — 1 operation(s) for registercomputenodegroupinstance.
+- [Amazon Parallel Computing Service UpdateCluster API](https://apis.io/apis/amazon-parallel-computing-service/amazon-parallel-computing-service-updatecluster-api/) — The UpdateCluster API from Amazon Parallel Computing Service — 1 operation(s) for updatecluster.
+- [Amazon Parallel Computing Service UpdateComputeNodeGroup API](https://apis.io/apis/amazon-parallel-computing-service/amazon-parallel-computing-service-updatecomputenodegroup-api/) — The UpdateComputeNodeGroup API from Amazon Parallel Computing Service — 1 operation(s) for updatecomputenodegroup.
+- [Amazon Parallel Computing Service UpdateQueue API](https://apis.io/apis/amazon-parallel-computing-service/amazon-parallel-computing-service-updatequeue-api/) — The UpdateQueue API from Amazon Parallel Computing Service — 1 operation(s) for updatequeue.
+- [Amazon Parallel Computing Service List Tags For Resource API](https://apis.io/apis/amazon-parallel-computing-service/amazon-parallel-computing-service-list-tags-for-resource-api/) — The List Tags For Resource API from Amazon Parallel Computing Service — 1 operation(s) for list tags for resource.
+- [Amazon Parallel Computing Service Tag Resource API](https://apis.io/apis/amazon-parallel-computing-service/amazon-parallel-computing-service-tag-resource-api/) — The Tag Resource API from Amazon Parallel Computing Service — 1 operation(s) for tag resource.
+- [Amazon Parallel Computing Service Untag Resource API](https://apis.io/apis/amazon-parallel-computing-service/amazon-parallel-computing-service-untag-resource-api/) — The Untag Resource API from Amazon Parallel Computing Service — 1 operation(s) for untag resource.
 
-## Timestamps
+### Published properties
 
-- **Created:** 2026-03-16
-- **Modified:** 2026-05-19
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Agentic access (1)
 
-### AWS Parallel Computing Service API
+Which operations an agent can call, which act, and which need a human in the loop.
 
-The AWS Parallel Computing Service API provides programmatic access to create and manage HPC clusters, compute node groups, queues, and job scheduling for high performance computing workloads.
+- [Amazon Parallel Computing Service Agentic Access](https://apis.io/agentic-access/amazon-parallel-computing-service/amazon-parallel-computing-service-agentic-access/)
 
-- **Human URL:** [https://aws.amazon.com/pcs/](https://aws.amazon.com/pcs/)
-- **Base URL:** `https://pcs.amazonaws.com`
+#### Vocabulary (1)
 
-#### Tags
+The provider's domain terms, defined.
 
-- High Performance Computing
-- HPC
-- Parallel Computing
+- [Amazon Parallel Computing Service Vocabulary](https://apis.io/vocabularies/amazon-parallel-computing-service/amazon-parallel-computing-service-vocabulary/)
 
-#### Properties
+#### Collections (20)
 
-- [OpenAPI](openapi/amazon-parallel-computing-service-openapi.yml) — [OpenAPI Specification](https://spec.openapis.org/oas/latest.html)
-- [Postman Collection](collections/amazon-parallel-computing-service.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/amazon-parallel-computing-service.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
-- [Documentation](https://docs.aws.amazon.com/pcs/latest/APIReference/Welcome.html)
-- [API Reference](https://docs.aws.amazon.com/pcs/latest/APIReference/Welcome.html)
-- [Getting Started](https://aws.amazon.com/pcs/getting-started/)
-- [Pricing](https://aws.amazon.com/pcs/pricing/)
-- [F A Q](https://aws.amazon.com/pcs/faqs/)
+Postman and Open Collection request collections.
 
-## Common Properties
+- [Amazon Parallel Computing Service](https://apis.io/collections/amazon-parallel-computing-service/open-amazon-parallel-computing-service/)
+- [Amazon Parallel Computing Service CreateCluster API](https://apis.io/collections/amazon-parallel-computing-service/open-amazon-parallel-computing-service-createcluster-api/)
+- [Amazon Parallel Computing Service CreateCluster CreateComputeNodeGroup API](https://apis.io/collections/amazon-parallel-computing-service/open-amazon-parallel-computing-service-createcomputenodegroup-api/)
+- [Amazon Parallel Computing Service CreateCluster CreateQueue API](https://apis.io/collections/amazon-parallel-computing-service/open-amazon-parallel-computing-service-createqueue-api/)
+- [Amazon Parallel Computing Service CreateCluster DeleteCluster API](https://apis.io/collections/amazon-parallel-computing-service/open-amazon-parallel-computing-service-deletecluster-api/)
+- [Amazon Parallel Computing Service CreateCluster DeleteComputeNodeGroup API](https://apis.io/collections/amazon-parallel-computing-service/open-amazon-parallel-computing-service-deletecomputenodegroup-api/)
+- [Amazon Parallel Computing Service CreateCluster DeleteQueue API](https://apis.io/collections/amazon-parallel-computing-service/open-amazon-parallel-computing-service-deletequeue-api/)
+- [Amazon Parallel Computing Service CreateCluster GetCluster API](https://apis.io/collections/amazon-parallel-computing-service/open-amazon-parallel-computing-service-getcluster-api/)
+- [Amazon Parallel Computing Service CreateCluster GetComputeNodeGroup API](https://apis.io/collections/amazon-parallel-computing-service/open-amazon-parallel-computing-service-getcomputenodegroup-api/)
+- [Amazon Parallel Computing Service CreateCluster GetQueue API](https://apis.io/collections/amazon-parallel-computing-service/open-amazon-parallel-computing-service-getqueue-api/)
+- [Amazon Parallel Computing Service CreateCluster ListClusters API](https://apis.io/collections/amazon-parallel-computing-service/open-amazon-parallel-computing-service-listclusters-api/)
+- [Amazon Parallel Computing Service CreateCluster ListComputeNodeGroups API](https://apis.io/collections/amazon-parallel-computing-service/open-amazon-parallel-computing-service-listcomputenodegroups-api/)
+- [Amazon Parallel Computing Service CreateCluster ListQueues API](https://apis.io/collections/amazon-parallel-computing-service/open-amazon-parallel-computing-service-listqueues-api/)
+- [Amazon Parallel Computing Service CreateCluster ListTagsForResource API](https://apis.io/collections/amazon-parallel-computing-service/open-amazon-parallel-computing-service-listtagsforresource-api/)
+- [Amazon Parallel Computing Service CreateCluster RegisterComputeNodeGroupInstance API](https://apis.io/collections/amazon-parallel-computing-service/open-amazon-parallel-computing-service-registercomputenodegroupinstance-api/)
+- [Amazon Parallel Computing Service CreateCluster TagResource API](https://apis.io/collections/amazon-parallel-computing-service/open-amazon-parallel-computing-service-tagresource-api/)
+- [Amazon Parallel Computing Service CreateCluster UntagResource API](https://apis.io/collections/amazon-parallel-computing-service/open-amazon-parallel-computing-service-untagresource-api/)
+- [Amazon Parallel Computing Service CreateCluster UpdateCluster API](https://apis.io/collections/amazon-parallel-computing-service/open-amazon-parallel-computing-service-updatecluster-api/)
+- [Amazon Parallel Computing Service CreateCluster UpdateComputeNodeGroup API](https://apis.io/collections/amazon-parallel-computing-service/open-amazon-parallel-computing-service-updatecomputenodegroup-api/)
+- [Amazon Parallel Computing Service CreateCluster UpdateQueue API](https://apis.io/collections/amazon-parallel-computing-service/open-amazon-parallel-computing-service-updatequeue-api/)
 
-- [Portal](https://aws.amazon.com/pcs/)
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Amazon Parallel Computing Service API Rules](https://apis.io/rules/amazon-parallel-computing-service/amazon-parallel-computing-service-spectral-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Amazon Parallel Computing Service Domain Security](https://apis.io/security/amazon-parallel-computing-service/amazon-parallel-computing-service-domain-security/)
+- [Amazon Parallel Computing Service Trust Center](https://apis.io/security/amazon-parallel-computing-service/amazon-parallel-computing-service-trust-center/)
+- [Amazon Parallel Computing Service Vulnerability Disclosure](https://apis.io/security/amazon-parallel-computing-service/amazon-parallel-computing-service-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Amazon Parallel Computing Service Plans Pricing](https://apis.io/plans/amazon-parallel-computing-service/amazon-parallel-computing-service-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Amazon Parallel Computing Service Rate Limits](https://apis.io/rate-limits/amazon-parallel-computing-service/amazon-parallel-computing-service-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Amazon Parallel Computing Service Finops](https://apis.io/finops/amazon-parallel-computing-service/amazon-parallel-computing-service-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
 - [Website](https://aws.amazon.com/pcs/)
 - [Documentation](https://docs.aws.amazon.com/pcs/)
-- [Terms of Service](https://aws.amazon.com/service-terms/)
-- [Privacy Policy](https://aws.amazon.com/privacy/)
 - [Support](https://aws.amazon.com/premiumsupport/)
 - [Blog](https://aws.amazon.com/blogs/hpc/)
-- [GitHub Organization](https://github.com/aws)
-- [Console](https://console.aws.amazon.com/pcs/)
-- [Sign Up](https://portal.aws.amazon.com/billing/signup)
-- [Login](https://signin.aws.amazon.com/)
-- [Status Page](https://health.aws.amazon.com/health/status)
-- [Contact](https://aws.amazon.com/contact-us/)
-- [Spectral Rules](rules/amazon-parallel-computing-service-spectral-rules.yml)
-- [Vocabulary](vocabulary/amazon-parallel-computing-service-vocabulary.yaml)
+- [Terms of service](https://aws.amazon.com/service-terms/)
+- [Privacy policy](https://aws.amazon.com/privacy/)
+- [GitHub](https://github.com/aws)
+- [Status](https://health.aws.amazon.com/health/status)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+**Kin Score 43.5** — developing · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 35.5 |
+| Contract governance | 27.3 |
+| Operational transparency | 36.8 |
+| Developer ergonomics | 40.5 |
+| Access clarity | 53.9 |
+
+**Agent readiness 15.4** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | derived (partial credit) |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 29.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/amazon-parallel-computing-service/](https://apis.io/providers/amazon-parallel-computing-service/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Amazon Parallel Computing Service: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/amazon-parallel-computing-service/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
