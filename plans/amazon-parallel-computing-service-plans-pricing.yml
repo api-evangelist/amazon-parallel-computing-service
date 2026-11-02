@@ -1,0 +1,109 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-28'
+method: searched
+source: https://aws.amazon.com/pcs/pricing/
+sources:
+- https://aws.amazon.com/pcs/pricing/
+provenance:
+  tool: engine/economics/harvest_pricing.py
+  run: 20261028T161713
+  grounding: every price_text was found verbatim in the fetched page text
+audience: developer-api
+pricing_basis: usage-other
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-28'
+  managed_tier: Small
+published: true
+note: The live pricing tables render as unresolved template placeholders ({priceOf!...}); the only numeric
+  prices on the page appear in the two worked pricing examples for US East (N. Virginia), which were used
+  for the plan entries. Charges are hourly cluster controller fees, per-instance-hour node management
+  fees (standard/advanced tiers), plus optional Slurm Accounting usage and per-GB-month storage fees;
+  underlying EC2 resources billed separately.
+plan_count: 5
+currency: USD
+plans:
+- name: Medium cluster controller fee (example, US East N. Virginia)
+  price_text: $3.2579/hour
+  price: 3.2579
+  currency: USD
+  period: per-use
+  unit: hour
+- name: Node management fee - Standard tier (example)
+  price_text: $0.08/instance/hour
+  price: 0.08
+  currency: USD
+  period: per-use
+  unit: instance-hour
+- name: Node management fee - Advanced tier (P/TRN instances, example)
+  price_text: $0.64/instance/hour
+  price: 0.64
+  currency: USD
+  period: per-use
+  unit: instance-hour
+- name: Accounting usage fee (Medium, example)
+  price_text: $0.98/hour
+  price: 0.98
+  currency: USD
+  period: per-use
+  unit: hour
+- name: Accounting storage fee (example)
+  price_text: $0.81/GB/month
+  price: 0.81
+  currency: USD
+  period: month
+  unit: GB-month
+rate_limit_statements:
+- Small Up to 32 Up to 256
+- Medium Up to 512 Up to 8,192
+- Large Up to 2,048 Up to 16,384
+x-canonical:
+  generated: '2026-11-01'
+  vocabulary: engine/economics/plans-canonical.yml
+  models:
+  - hybrid
+  units:
+  - compute
+  - data
+  plans:
+  - name: Medium cluster controller fee (example, US East N. Virginia)
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - compute
+    periods:
+    - other
+  - name: Node management fee - Standard tier (example)
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - compute
+    periods:
+    - other
+  - name: Node management fee - Advanced tier (P/TRN instances, example)
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - compute
+    periods:
+    - other
+  - name: Accounting usage fee (Medium, example)
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - compute
+    periods:
+    - other
+  - name: Accounting storage fee (example)
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - data
+    periods:
+    - month
