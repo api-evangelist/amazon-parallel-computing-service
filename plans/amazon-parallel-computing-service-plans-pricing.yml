@@ -59,7 +59,7 @@ rate_limit_statements:
 - Medium Up to 512 Up to 8,192
 - Large Up to 2,048 Up to 16,384
 x-canonical:
-  generated: '2026-11-02'
+  generated: '2026-11-06'
   vocabulary: engine/economics/plans-canonical.yml
   models:
   - hybrid
