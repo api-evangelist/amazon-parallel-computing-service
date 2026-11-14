@@ -5,9 +5,27 @@ artifacts:
   agentic-access/amazon-parallel-computing-service-agentic-access.yml:
     method: generated
     evidence: declared in the artifact
+  ai-preferences/amazon-parallel-computing-service-ai-preferences.yml:
+    method: harvested
+    evidence: declared in the artifact
+  authentication/amazon-parallel-computing-service-authentication.yml:
+    method: derived
+    evidence: declared in the artifact
   capabilities/amazon-parallel-computing-service-capability-edges.yml:
     method: unknown
     evidence: no authorship recorded
+  certification/observations-2026-11-11.jsonl:
+    method: unknown
+    evidence: no authorship recorded
+  certification/status.yml:
+    method: unknown
+    evidence: no authorship recorded
+  changelog/amazon-parallel-computing-service-changelog.yml:
+    method: searched
+    evidence: declared in the artifact
+  cli/amazon-parallel-computing-service-cli.yml:
+    method: searched
+    evidence: declared in the artifact
   collections/amazon-parallel-computing-service-createcluster-api.opencollection.json:
     method: derived
     evidence: openapi/amazon-parallel-computing-service-createcluster-api
@@ -128,22 +146,160 @@ artifacts:
   collections/amazon-parallel-computing-service.postman_collection.json:
     method: derived
     evidence: openapi/amazon-parallel-computing-service
+  compliance/amazon-parallel-computing-service-compliance.yml:
+    method: harvested
+    evidence: declared in the artifact
+  conformance/amazon-parallel-computing-service-conformance.yml:
+    method: derived
+    evidence: declared in the artifact
+  conventions/amazon-parallel-computing-service-conventions.yml:
+    method: derived
+    evidence: declared in the artifact
+  data-model/amazon-parallel-computing-service-data-model.yml:
+    method: derived
+    evidence: declared in the artifact
+  eligibility/amazon-parallel-computing-service-eligibility.yml:
+    method: harvested
+    evidence: declared in the artifact
+  errors/amazon-parallel-computing-service-problem-types.yml:
+    method: derived
+    evidence: declared in the artifact
   finops/amazon-parallel-computing-service-finops.yml:
     method: derived
     evidence: declared in the artifact
   front-door-ai/2026-09-17.yml:
     method: unknown
     evidence: no authorship recorded
+  hosts/amazon-parallel-computing-service-hosts.yml:
+    method: derived
+    evidence: declared in the artifact
   integrations/_index.yml:
     method: generated
     evidence: carries an API Evangelist house phrase
   integrations/amazon-parallel-computing-service-integration-edges.yml:
     method: unknown
     evidence: no authorship recorded
+  json-ld/amazon-parallel-computing-service-context.jsonld:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-parallel-computing-service-create-cluster-request-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-parallel-computing-service-create-cluster-response-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-parallel-computing-service-create-compute-node-group-request-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-parallel-computing-service-create-compute-node-group-response-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-parallel-computing-service-create-queue-request-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-parallel-computing-service-create-queue-response-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-parallel-computing-service-delete-cluster-request-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-parallel-computing-service-delete-cluster-response-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-parallel-computing-service-delete-compute-node-group-request-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-parallel-computing-service-delete-compute-node-group-response-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-parallel-computing-service-delete-queue-request-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-parallel-computing-service-delete-queue-response-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-parallel-computing-service-get-cluster-request-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-parallel-computing-service-get-cluster-response-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-parallel-computing-service-get-compute-node-group-request-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-parallel-computing-service-get-compute-node-group-response-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-parallel-computing-service-get-queue-request-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-parallel-computing-service-get-queue-response-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-parallel-computing-service-list-clusters-request-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-parallel-computing-service-list-clusters-response-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-parallel-computing-service-list-compute-node-groups-request-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-parallel-computing-service-list-compute-node-groups-response-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-parallel-computing-service-list-queues-request-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-parallel-computing-service-list-queues-response-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-parallel-computing-service-list-tags-for-resource-request-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-parallel-computing-service-list-tags-for-resource-response-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-parallel-computing-service-register-compute-node-group-instance-request-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-parallel-computing-service-register-compute-node-group-instance-response-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-parallel-computing-service-tag-resource-request-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-parallel-computing-service-tag-resource-response-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-parallel-computing-service-untag-resource-request-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-parallel-computing-service-untag-resource-response-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-parallel-computing-service-update-cluster-request-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-parallel-computing-service-update-cluster-response-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-parallel-computing-service-update-compute-node-group-request-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-parallel-computing-service-update-compute-node-group-response-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-parallel-computing-service-update-queue-request-schema.json:
+    method: unknown
+    evidence: no authorship recorded
+  json-schema/amazon-parallel-computing-service-update-queue-response-schema.json:
+    method: unknown
+    evidence: no authorship recorded
   kin/checks-2026-10-23T222754.yml:
     method: generated
     evidence: Kin Score snapshot written by score.rb
-  kin/checks-2026-11-02T082323.yml:
+  kin/checks-2026-11-06T143934.yml:
     method: generated
     evidence: Kin Score snapshot written by score.rb
   kin/score-2026-09-23T000603.yml:
@@ -212,6 +368,21 @@ artifacts:
   kin/score-2026-11-02T082323.yml:
     method: generated
     evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-11-06T143934.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  lifecycle/amazon-parallel-computing-service-lifecycle.yml:
+    method: searched
+    evidence: declared in the artifact
+  llms/amazon-parallel-computing-service-llms-provenance.yml:
+    method: unknown
+    evidence: no authorship recorded
+  llms/amazon-parallel-computing-service-llms.txt:
+    method: unknown
+    evidence: no authorship recorded
+  mcp/amazon-parallel-computing-service-mcp.yml:
+    method: derived
+    evidence: declared in the artifact
   openapi/amazon-parallel-computing-service-createcluster-api-openapi.yml:
     method: unknown
     evidence: no authorship recorded
@@ -240,8 +411,8 @@ artifacts:
     method: unknown
     evidence: no authorship recorded
   openapi/amazon-parallel-computing-service-list-tags-for-resource-api-openapi.yml:
-    method: unknown
-    evidence: no authorship recorded
+    method: harvested
+    evidence: declared in the artifact
   openapi/amazon-parallel-computing-service-listclusters-api-openapi.yml:
     method: unknown
     evidence: no authorship recorded
@@ -258,8 +429,8 @@ artifacts:
     method: unknown
     evidence: no authorship recorded
   openapi/amazon-parallel-computing-service-untag-resource-api-openapi.yml:
-    method: unknown
-    evidence: no authorship recorded
+    method: harvested
+    evidence: declared in the artifact
   openapi/amazon-parallel-computing-service-updatecluster-api-openapi.yml:
     method: unknown
     evidence: no authorship recorded
@@ -269,10 +440,19 @@ artifacts:
   openapi/amazon-parallel-computing-service-updatequeue-api-openapi.yml:
     method: unknown
     evidence: no authorship recorded
+  packages/amazon-parallel-computing-service-packages.yml:
+    method: searched
+    evidence: declared in the artifact
+  patterns/amazon-parallel-computing-service-patterns.yml:
+    method: derived
+    evidence: declared in the artifact
   plans/amazon-parallel-computing-service-plans-pricing.yml:
     method: searched
     evidence: declared in the artifact
   rate-limits/amazon-parallel-computing-service-rate-limits.yml:
+    method: generated
+    evidence: declared in the artifact
+  rules/amazon-parallel-computing-service-rules.yml:
     method: generated
     evidence: declared in the artifact
   rules/amazon-parallel-computing-service-spectral-rules.yml:
@@ -291,8 +471,27 @@ artifacts:
     method: generated
     evidence: declared in the artifact
   smithy/pcs-2023-02-10.json:
+    method: harvested
+    evidence: byte-identical to https://raw.githubusercontent.com/aws/api-models-aws/3cd98287b471c106254abd89279cc87308d38bfd/models/pcs/service/2023-02-10/pcs-2023-02-10.json
+      (sha256 00bf3691af76, fetched 2026-11-11T21:13:33+00:00)
+  terms/amazon-parallel-computing-service-terms-of-service.yml:
+    method: harvested
+    evidence: declared in the artifact
+  vendors/amazon-parallel-computing-service-vendors.yml:
     method: unknown
     evidence: no authorship recorded
   vocabulary/amazon-parallel-computing-service-vocabulary.yaml:
+    method: unknown
+    evidence: no authorship recorded
+  vocabulary/amazon-parallel-computing-service-vocabulary.yml:
+    method: derived
+    evidence: declared in the artifact
+  well-known/amazon-parallel-computing-service-midway-auth-openid-configuration.json:
+    method: unknown
+    evidence: no authorship recorded
+  well-known/amazon-parallel-computing-service-security.txt:
+    method: unknown
+    evidence: no authorship recorded
+  well-known/amazon-parallel-computing-service-well-known.yml:
     method: unknown
     evidence: no authorship recorded

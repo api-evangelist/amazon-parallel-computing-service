@@ -1,10 +1,13 @@
 aid: amazon-parallel-computing-service
+
 name: Amazon Parallel Computing Service
-description: >-
-  AWS Parallel Computing Service (PCS) is a managed service that makes it easy to create and manage high performance
-  computing (HPC) clusters on AWS. It provides familiar scheduler interfaces, integrates with existing HPC tools, and
-  scales automatically to handle demanding workloads.
+
+description: AWS Parallel Computing Service (PCS) is a managed service that makes it easy to create and manage high performance computing (HPC)
+  clusters on AWS. It provides familiar scheduler interfaces, integrates with existing HPC tools, and scales automatically to handle demanding
+  workloads.
+
 type: Index
+
 deliveryModel:
   model: saas
   open_source: false
@@ -17,6 +20,7 @@ deliveryModel:
   - pricing
   generated: '2026-08-28'
   method: derived
+
 accessModel:
   pricing: paid
   onboarding: unknown
@@ -24,29 +28,147 @@ accessModel:
   try_now: false
   public: false
   label: Paid
-  confidence: low
+  confidence: medium
   source:
   - plans
+  - authentication
   - security
-  generated: '2026-11-06'
+  generated: '2026-11-13'
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon-parallel-computing-service.png
+
 tags:
-  - Amazon Web Services
-  - High Performance Computing
-  - HPC
-  - Parallel Computing
-  - Scientific Computing
+- Amazon Web Services
+- High Performance Computing
+- HPC
+- Parallel Computing
+- Scientific Computing
 tags_raw:
-  - AWS
-  - High Performance Computing
-  - HPC
-  - Parallel Computing
-  - Scientific Computing
+- AWS
+- High Performance Computing
+- HPC
+- Parallel Computing
+- Scientific Computing
+
 url: https://raw.githubusercontent.com/api-evangelist/amazon-parallel-computing-service/refs/heads/main/apis.yml
+
 created: '2026-03-16'
-modified: '2026-05-19'
+
+modified: '2026-11-11'
+
 specificationVersion: '0.23'
+
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+
+common:
+- type: Spectral
+  url: rules/amazon-parallel-computing-service-spectral-rules.yml
+- type: Spectral
+  url: rules/amazon-parallel-computing-service-rules.yml
+- type: JSONLD
+  url: json-ld/amazon-parallel-computing-service-context.jsonld
+- type: Vocabulary
+  url: vocabulary/amazon-parallel-computing-service-vocabulary.yml
+- type: DataModel
+  url: data-model/amazon-parallel-computing-service-data-model.yml
+- type: CLI
+  url: cli/amazon-parallel-computing-service-cli.yml
+- type: ChangeLog
+  url: changelog/amazon-parallel-computing-service-changelog.yml
+- type: Idempotency
+  url: conventions/amazon-parallel-computing-service-conventions.yml
+- type: Conventions
+  url: conventions/amazon-parallel-computing-service-conventions.yml
+- type: Compliance
+  url: https://aws.amazon.com/compliance/
+- type: Deprecation
+  url: https://docs.aws.amazon.com/pcs/latest/userguide/doc-history.html
+- type: Lifecycle
+  url: lifecycle/amazon-parallel-computing-service-lifecycle.yml
+- type: ErrorCatalog
+  url: errors/amazon-parallel-computing-service-problem-types.yml
+- type: Conformance
+  url: conformance/amazon-parallel-computing-service-conformance.yml
+- type: LLMsTxt
+  url: llms/amazon-parallel-computing-service-llms.txt
+- type: SecurityTxt
+  url: well-known/amazon-parallel-computing-service-security.txt
+- type: WellKnown
+  url: well-known/amazon-parallel-computing-service-well-known.yml
+- type: Hosts
+  url: hosts/amazon-parallel-computing-service-hosts.yml
+- type: Vendors
+  url: vendors/amazon-parallel-computing-service-vendors.yml
+- type: SDKs
+  url: packages/amazon-parallel-computing-service-packages.yml
+- type: Packages
+  url: packages/amazon-parallel-computing-service-packages.yml
+- type: Security
+  url: https://aws.amazon.com/security/?nc2=h_dsc_aa_sec
+- type: Newsroom
+  url: https://aws.amazon.com/media/?nc2=h_sol_ind_med
+- type: GettingStarted
+  url: https://developer.amazon.com/frustration-free-setup
+- type: Authentication
+  url: authentication/amazon-parallel-computing-service-authentication.yml
+- type: Plans
+  url: plans/amazon-parallel-computing-service-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/amazon-parallel-computing-service-rate-limits.yml
+- type: FinOps
+  url: finops/amazon-parallel-computing-service-finops.yml
+- type: CapabilityMap
+  url: capabilities/amazon-parallel-computing-service-capability-edges.yml
+  name: Amazon Parallel Computing Service Business Capability Map
+- type: AgenticAccess
+  url: agentic-access/amazon-parallel-computing-service-agentic-access.yml
+- type: TrustCenter
+  url: security/amazon-parallel-computing-service-trust-center.yml
+- type: VulnerabilityDisclosure
+  url: security/amazon-parallel-computing-service-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/amazon-parallel-computing-service-domain-security.yml
+- type: Portal
+  url: https://aws.amazon.com/pcs/
+- type: Website
+  url: https://aws.amazon.com/pcs/
+- type: Documentation
+  url: https://docs.aws.amazon.com/pcs/
+- type: TermsOfService
+  url: https://aws.amazon.com/service-terms/
+- type: PrivacyPolicy
+  url: https://aws.amazon.com/privacy/
+- type: Support
+  url: https://aws.amazon.com/premiumsupport/
+- type: Blog
+  url: https://aws.amazon.com/blogs/hpc/
+- type: GitHubOrganization
+  url: https://github.com/aws
+- type: Console
+  url: https://console.aws.amazon.com/pcs/
+- type: Signup
+  url: https://portal.aws.amazon.com/billing/signup
+- type: Login
+  url: https://signin.aws.amazon.com/
+- type: StatusPage
+  url: https://health.aws.amazon.com/health/status
+- type: Contact
+  url: https://aws.amazon.com/contact-us/
+- type: SpectralRules
+  url: rules/amazon-parallel-computing-service-spectral-rules.yml
+- type: Vocabulary
+  url: vocabulary/amazon-parallel-computing-service-vocabulary.yaml
+- type: UsageTerms
+  url: terms/amazon-parallel-computing-service-terms-of-service.yml
+- type: Attestations
+  url: compliance/amazon-parallel-computing-service-compliance.yml
+- type: Eligibility
+  url: eligibility/amazon-parallel-computing-service-eligibility.yml
+- type: AIPreferences
+  url: ai-preferences/amazon-parallel-computing-service-ai-preferences.yml
+
 apis:
 - aid: amazon-parallel-computing-service:amazon-parallel-computing-service-createcluster-api
   name: Amazon Parallel Computing Service CreateCluster API
@@ -69,6 +191,10 @@ apis:
     url: https://aws.amazon.com/pcs/pricing/
   - type: FAQ
     url: https://aws.amazon.com/pcs/faqs/
+  - type: JSONSchema
+    url: json-schema/amazon-parallel-computing-service-create-cluster-request-schema.json
+  - type: JSONSchema
+    url: json-schema/amazon-parallel-computing-service-create-cluster-response-schema.json
 - aid: >-
     amazon-parallel-computing-service:amazon-parallel-computing-service-createcomputenodegroup-api
   name: Amazon Parallel Computing Service CreateComputeNodeGroup API
@@ -91,6 +217,12 @@ apis:
     url: https://aws.amazon.com/pcs/pricing/
   - type: FAQ
     url: https://aws.amazon.com/pcs/faqs/
+  - type: JSONSchema
+    url: >-
+      json-schema/amazon-parallel-computing-service-create-compute-node-group-request-schema.json
+  - type: JSONSchema
+    url: >-
+      json-schema/amazon-parallel-computing-service-create-compute-node-group-response-schema.json
 - aid: amazon-parallel-computing-service:amazon-parallel-computing-service-createqueue-api
   name: Amazon Parallel Computing Service CreateQueue API
   description: >-
@@ -112,6 +244,10 @@ apis:
     url: https://aws.amazon.com/pcs/pricing/
   - type: FAQ
     url: https://aws.amazon.com/pcs/faqs/
+  - type: JSONSchema
+    url: json-schema/amazon-parallel-computing-service-create-queue-request-schema.json
+  - type: JSONSchema
+    url: json-schema/amazon-parallel-computing-service-create-queue-response-schema.json
 - aid: amazon-parallel-computing-service:amazon-parallel-computing-service-deletecluster-api
   name: Amazon Parallel Computing Service DeleteCluster API
   description: >-
@@ -133,6 +269,10 @@ apis:
     url: https://aws.amazon.com/pcs/pricing/
   - type: FAQ
     url: https://aws.amazon.com/pcs/faqs/
+  - type: JSONSchema
+    url: json-schema/amazon-parallel-computing-service-delete-cluster-request-schema.json
+  - type: JSONSchema
+    url: json-schema/amazon-parallel-computing-service-delete-cluster-response-schema.json
 - aid: >-
     amazon-parallel-computing-service:amazon-parallel-computing-service-deletecomputenodegroup-api
   name: Amazon Parallel Computing Service DeleteComputeNodeGroup API
@@ -155,6 +295,12 @@ apis:
     url: https://aws.amazon.com/pcs/pricing/
   - type: FAQ
     url: https://aws.amazon.com/pcs/faqs/
+  - type: JSONSchema
+    url: >-
+      json-schema/amazon-parallel-computing-service-delete-compute-node-group-request-schema.json
+  - type: JSONSchema
+    url: >-
+      json-schema/amazon-parallel-computing-service-delete-compute-node-group-response-schema.json
 - aid: amazon-parallel-computing-service:amazon-parallel-computing-service-deletequeue-api
   name: Amazon Parallel Computing Service DeleteQueue API
   description: >-
@@ -176,6 +322,10 @@ apis:
     url: https://aws.amazon.com/pcs/pricing/
   - type: FAQ
     url: https://aws.amazon.com/pcs/faqs/
+  - type: JSONSchema
+    url: json-schema/amazon-parallel-computing-service-delete-queue-request-schema.json
+  - type: JSONSchema
+    url: json-schema/amazon-parallel-computing-service-delete-queue-response-schema.json
 - aid: amazon-parallel-computing-service:amazon-parallel-computing-service-getcluster-api
   name: Amazon Parallel Computing Service GetCluster API
   description: >-
@@ -197,6 +347,10 @@ apis:
     url: https://aws.amazon.com/pcs/pricing/
   - type: FAQ
     url: https://aws.amazon.com/pcs/faqs/
+  - type: JSONSchema
+    url: json-schema/amazon-parallel-computing-service-get-cluster-request-schema.json
+  - type: JSONSchema
+    url: json-schema/amazon-parallel-computing-service-get-cluster-response-schema.json
 - aid: >-
     amazon-parallel-computing-service:amazon-parallel-computing-service-getcomputenodegroup-api
   name: Amazon Parallel Computing Service GetComputeNodeGroup API
@@ -219,6 +373,11 @@ apis:
     url: https://aws.amazon.com/pcs/pricing/
   - type: FAQ
     url: https://aws.amazon.com/pcs/faqs/
+  - type: JSONSchema
+    url: json-schema/amazon-parallel-computing-service-get-compute-node-group-request-schema.json
+  - type: JSONSchema
+    url: >-
+      json-schema/amazon-parallel-computing-service-get-compute-node-group-response-schema.json
 - aid: amazon-parallel-computing-service:amazon-parallel-computing-service-getqueue-api
   name: Amazon Parallel Computing Service GetQueue API
   description: The GetQueue API from Amazon Parallel Computing Service — 1 operation(s) for getqueue.
@@ -239,6 +398,10 @@ apis:
     url: https://aws.amazon.com/pcs/pricing/
   - type: FAQ
     url: https://aws.amazon.com/pcs/faqs/
+  - type: JSONSchema
+    url: json-schema/amazon-parallel-computing-service-get-queue-request-schema.json
+  - type: JSONSchema
+    url: json-schema/amazon-parallel-computing-service-get-queue-response-schema.json
 - aid: amazon-parallel-computing-service:amazon-parallel-computing-service-listclusters-api
   name: Amazon Parallel Computing Service ListClusters API
   description: >-
@@ -260,6 +423,10 @@ apis:
     url: https://aws.amazon.com/pcs/pricing/
   - type: FAQ
     url: https://aws.amazon.com/pcs/faqs/
+  - type: JSONSchema
+    url: json-schema/amazon-parallel-computing-service-list-clusters-request-schema.json
+  - type: JSONSchema
+    url: json-schema/amazon-parallel-computing-service-list-clusters-response-schema.json
 - aid: >-
     amazon-parallel-computing-service:amazon-parallel-computing-service-listcomputenodegroups-api
   name: Amazon Parallel Computing Service ListComputeNodeGroups API
@@ -282,6 +449,12 @@ apis:
     url: https://aws.amazon.com/pcs/pricing/
   - type: FAQ
     url: https://aws.amazon.com/pcs/faqs/
+  - type: JSONSchema
+    url: >-
+      json-schema/amazon-parallel-computing-service-list-compute-node-groups-request-schema.json
+  - type: JSONSchema
+    url: >-
+      json-schema/amazon-parallel-computing-service-list-compute-node-groups-response-schema.json
 - aid: amazon-parallel-computing-service:amazon-parallel-computing-service-listqueues-api
   name: Amazon Parallel Computing Service ListQueues API
   description: >-
@@ -303,6 +476,10 @@ apis:
     url: https://aws.amazon.com/pcs/pricing/
   - type: FAQ
     url: https://aws.amazon.com/pcs/faqs/
+  - type: JSONSchema
+    url: json-schema/amazon-parallel-computing-service-list-queues-request-schema.json
+  - type: JSONSchema
+    url: json-schema/amazon-parallel-computing-service-list-queues-response-schema.json
 - aid: >-
     amazon-parallel-computing-service:amazon-parallel-computing-service-registercomputenodegroupinstance-api
   name: Amazon Parallel Computing Service RegisterComputeNodeGroupInstance API
@@ -327,6 +504,12 @@ apis:
     url: https://aws.amazon.com/pcs/pricing/
   - type: FAQ
     url: https://aws.amazon.com/pcs/faqs/
+  - type: JSONSchema
+    url: >-
+      json-schema/amazon-parallel-computing-service-register-compute-node-group-instance-response-schema.json
+  - type: JSONSchema
+    url: >-
+      json-schema/amazon-parallel-computing-service-register-compute-node-group-instance-request-schema.json
 - aid: amazon-parallel-computing-service:amazon-parallel-computing-service-updatecluster-api
   name: Amazon Parallel Computing Service UpdateCluster API
   description: >-
@@ -348,6 +531,10 @@ apis:
     url: https://aws.amazon.com/pcs/pricing/
   - type: FAQ
     url: https://aws.amazon.com/pcs/faqs/
+  - type: JSONSchema
+    url: json-schema/amazon-parallel-computing-service-update-cluster-request-schema.json
+  - type: JSONSchema
+    url: json-schema/amazon-parallel-computing-service-update-cluster-response-schema.json
 - aid: >-
     amazon-parallel-computing-service:amazon-parallel-computing-service-updatecomputenodegroup-api
   name: Amazon Parallel Computing Service UpdateComputeNodeGroup API
@@ -370,6 +557,12 @@ apis:
     url: https://aws.amazon.com/pcs/pricing/
   - type: FAQ
     url: https://aws.amazon.com/pcs/faqs/
+  - type: JSONSchema
+    url: >-
+      json-schema/amazon-parallel-computing-service-update-compute-node-group-request-schema.json
+  - type: JSONSchema
+    url: >-
+      json-schema/amazon-parallel-computing-service-update-compute-node-group-response-schema.json
 - aid: amazon-parallel-computing-service:amazon-parallel-computing-service-updatequeue-api
   name: Amazon Parallel Computing Service UpdateQueue API
   description: >-
@@ -391,6 +584,10 @@ apis:
     url: https://aws.amazon.com/pcs/pricing/
   - type: FAQ
     url: https://aws.amazon.com/pcs/faqs/
+  - type: JSONSchema
+    url: json-schema/amazon-parallel-computing-service-update-queue-request-schema.json
+  - type: JSONSchema
+    url: json-schema/amazon-parallel-computing-service-update-queue-response-schema.json
 - aid: >-
     amazon-parallel-computing-service:amazon-parallel-computing-service-list-tags-for-resource-api
   name: Amazon Parallel Computing Service List Tags For Resource API
@@ -414,6 +611,11 @@ apis:
     url: https://aws.amazon.com/pcs/pricing/
   - type: FAQ
     url: https://aws.amazon.com/pcs/faqs/
+  - type: JSONSchema
+    url: >-
+      json-schema/amazon-parallel-computing-service-list-tags-for-resource-response-schema.json
+  - type: JSONSchema
+    url: json-schema/amazon-parallel-computing-service-list-tags-for-resource-request-schema.json
 - aid: amazon-parallel-computing-service:amazon-parallel-computing-service-tag-resource-api
   name: Amazon Parallel Computing Service Tag Resource API
   description: >-
@@ -435,6 +637,10 @@ apis:
     url: https://aws.amazon.com/pcs/pricing/
   - type: FAQ
     url: https://aws.amazon.com/pcs/faqs/
+  - type: JSONSchema
+    url: json-schema/amazon-parallel-computing-service-tag-resource-request-schema.json
+  - type: JSONSchema
+    url: json-schema/amazon-parallel-computing-service-tag-resource-response-schema.json
 - aid: amazon-parallel-computing-service:amazon-parallel-computing-service-untag-resource-api
   name: Amazon Parallel Computing Service Untag Resource API
   description: >-
@@ -456,56 +662,15 @@ apis:
     url: https://aws.amazon.com/pcs/pricing/
   - type: FAQ
     url: https://aws.amazon.com/pcs/faqs/
-common:
-  - type: Plans
-    url: plans/amazon-parallel-computing-service-plans-pricing.yml
-  - type: RateLimits
-    url: rate-limits/amazon-parallel-computing-service-rate-limits.yml
-  - type: FinOps
-    url: finops/amazon-parallel-computing-service-finops.yml
-  - type: CapabilityMap
-    url: capabilities/amazon-parallel-computing-service-capability-edges.yml
-    name: Amazon Parallel Computing Service Business Capability Map
-  - type: AgenticAccess
-    url: agentic-access/amazon-parallel-computing-service-agentic-access.yml
-  - type: TrustCenter
-    url: security/amazon-parallel-computing-service-trust-center.yml
-  - type: VulnerabilityDisclosure
-    url: security/amazon-parallel-computing-service-vulnerability-disclosure.yml
-  - type: DomainSecurity
-    url: security/amazon-parallel-computing-service-domain-security.yml
-  - type: Portal
-    url: https://aws.amazon.com/pcs/
-  - type: Website
-    url: https://aws.amazon.com/pcs/
-  - type: Documentation
-    url: https://docs.aws.amazon.com/pcs/
-  - type: TermsOfService
-    url: https://aws.amazon.com/service-terms/
-  - type: PrivacyPolicy
-    url: https://aws.amazon.com/privacy/
-  - type: Support
-    url: https://aws.amazon.com/premiumsupport/
-  - type: Blog
-    url: https://aws.amazon.com/blogs/hpc/
-  - type: GitHubOrganization
-    url: https://github.com/aws
-  - type: Console
-    url: https://console.aws.amazon.com/pcs/
-  - type: Signup
-    url: https://portal.aws.amazon.com/billing/signup
-  - type: Login
-    url: https://signin.aws.amazon.com/
-  - type: StatusPage
-    url: https://health.aws.amazon.com/health/status
-  - type: Contact
-    url: https://aws.amazon.com/contact-us/
-  - type: SpectralRules
-    url: rules/amazon-parallel-computing-service-spectral-rules.yml
-  - type: Vocabulary
-    url: vocabulary/amazon-parallel-computing-service-vocabulary.yaml
-maintainers:
-  - FN: Kin Lane
-    email: kin@apievangelist.com
+  - type: JSONSchema
+    url: json-schema/amazon-parallel-computing-service-untag-resource-request-schema.json
+  - type: JSONSchema
+    url: json-schema/amazon-parallel-computing-service-untag-resource-response-schema.json
 x-parent: amazon-web-services
+
 x-relationship: product
+x-enrichment:
+  date: '2026-11-11'
+  status: enriched
+  artifacts_added: 6
+  pass: local-v6
